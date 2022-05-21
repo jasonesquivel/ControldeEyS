@@ -150,7 +150,7 @@ Partial Class FrmEmpleados
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FrmEmpleados"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Editar Empleados"
+        Me.Text = "Empleados"
         CType(Me.dtempleadosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.dgv, System.ComponentModel.ISupportInitialize).EndInit()

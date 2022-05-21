@@ -235,9 +235,10 @@ Partial Class editarhorariovb
         Me.Controls.Add(Me.Txtdescripcion)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "editarhorariovb"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "editarhorariovb"
+        Me.Text = "Editar horario"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

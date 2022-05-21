@@ -88,9 +88,9 @@ Partial Class FrmDepartamentos
         '
         Me.GroupBox1.Controls.Add(Me.dgv)
         Me.GroupBox1.Location = New System.Drawing.Point(100, 85)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(358, 312)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
@@ -102,7 +102,7 @@ Partial Class FrmDepartamentos
         Me.dgv.Dock = System.Windows.Forms.DockStyle.Fill
         Me.dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter
         Me.dgv.Location = New System.Drawing.Point(2, 15)
-        Me.dgv.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.dgv.Margin = New System.Windows.Forms.Padding(2)
         Me.dgv.Name = "dgv"
         Me.dgv.RowHeadersWidth = 51
         Me.dgv.RowTemplate.Height = 24
@@ -195,7 +195,7 @@ Partial Class FrmDepartamentos
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FrmDepartamentos"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Editar departamentos"
+        Me.Text = "Departamentos"
         CType(Me.dtdepartamentosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.dgv, System.ComponentModel.ISupportInitialize).EndInit()

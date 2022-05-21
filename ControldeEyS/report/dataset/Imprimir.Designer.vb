@@ -22,6 +22,7 @@ Partial Class Imprimir
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Imprimir))
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.SuspendLayout()
         '
@@ -29,7 +30,7 @@ Partial Class Imprimir
         '
         Me.ReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ReportViewer1.Location = New System.Drawing.Point(0, 0)
-        Me.ReportViewer1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ReportViewer1.Margin = New System.Windows.Forms.Padding(2)
         Me.ReportViewer1.Name = "ReportViewer1"
         Me.ReportViewer1.ServerReport.BearerToken = Nothing
         Me.ReportViewer1.Size = New System.Drawing.Size(842, 538)
@@ -41,7 +42,8 @@ Partial Class Imprimir
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(842, 538)
         Me.Controls.Add(Me.ReportViewer1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Imprimir"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Imprimir"
