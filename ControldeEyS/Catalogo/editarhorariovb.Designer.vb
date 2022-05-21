@@ -51,7 +51,7 @@ Partial Class editarhorariovb
         Me.txtshoradealidaedit.Mask = "00:00:00"
         Me.txtshoradealidaedit.Name = "txtshoradealidaedit"
         Me.txtshoradealidaedit.Size = New System.Drawing.Size(100, 20)
-        Me.txtshoradealidaedit.TabIndex = 132
+        Me.txtshoradealidaedit.TabIndex = 4
         '
         'txthoradeentradaedit
         '
@@ -59,14 +59,14 @@ Partial Class editarhorariovb
         Me.txthoradeentradaedit.Mask = "00:00:00"
         Me.txthoradeentradaedit.Name = "txthoradeentradaedit"
         Me.txthoradeentradaedit.Size = New System.Drawing.Size(100, 20)
-        Me.txthoradeentradaedit.TabIndex = 131
+        Me.txthoradeentradaedit.TabIndex = 3
         '
         'Txtidhorario
         '
         Me.Txtidhorario.Location = New System.Drawing.Point(357, 101)
         Me.Txtidhorario.Name = "Txtidhorario"
         Me.Txtidhorario.Size = New System.Drawing.Size(196, 20)
-        Me.Txtidhorario.TabIndex = 130
+        Me.Txtidhorario.TabIndex = 1
         '
         'txtentrada
         '
@@ -74,7 +74,7 @@ Partial Class editarhorariovb
         Me.txtentrada.Name = "txtentrada"
         Me.txtentrada.ReadOnly = True
         Me.txtentrada.Size = New System.Drawing.Size(196, 20)
-        Me.txtentrada.TabIndex = 129
+        Me.txtentrada.TabIndex = 9
         '
         'Txtsalida
         '
@@ -82,7 +82,7 @@ Partial Class editarhorariovb
         Me.Txtsalida.Name = "Txtsalida"
         Me.Txtsalida.ReadOnly = True
         Me.Txtsalida.Size = New System.Drawing.Size(196, 20)
-        Me.Txtsalida.TabIndex = 128
+        Me.Txtsalida.TabIndex = 10
         '
         'Label5
         '
@@ -125,7 +125,7 @@ Partial Class editarhorariovb
         Me.Button4.Location = New System.Drawing.Point(441, 449)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 123
+        Me.Button4.TabIndex = 7
         Me.Button4.Text = "Eliminar"
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -145,7 +145,7 @@ Partial Class editarhorariovb
         Me.Texdescripcionedit.Multiline = True
         Me.Texdescripcionedit.Name = "Texdescripcionedit"
         Me.Texdescripcionedit.Size = New System.Drawing.Size(196, 141)
-        Me.Texdescripcionedit.TabIndex = 115
+        Me.Texdescripcionedit.TabIndex = 5
         '
         'Label4
         '
@@ -161,7 +161,7 @@ Partial Class editarhorariovb
         Me.Button3.Location = New System.Drawing.Point(690, 104)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 114
+        Me.Button3.TabIndex = 2
         Me.Button3.Text = "Buscar"
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -170,7 +170,7 @@ Partial Class editarhorariovb
         Me.Button2.Location = New System.Drawing.Point(571, 449)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 117
+        Me.Button2.TabIndex = 8
         Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -179,7 +179,7 @@ Partial Class editarhorariovb
         Me.Button1.Location = New System.Drawing.Point(311, 449)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 116
+        Me.Button1.TabIndex = 6
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -190,7 +190,7 @@ Partial Class editarhorariovb
         Me.Txtdescripcion.Name = "Txtdescripcion"
         Me.Txtdescripcion.ReadOnly = True
         Me.Txtdescripcion.Size = New System.Drawing.Size(196, 138)
-        Me.Txtdescripcion.TabIndex = 118
+        Me.Txtdescripcion.TabIndex = 11
         '
         'Label3
         '

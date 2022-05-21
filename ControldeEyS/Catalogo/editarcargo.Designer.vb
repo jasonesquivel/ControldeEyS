@@ -60,7 +60,7 @@ Partial Class editarcargo
         Me.Button1.Location = New System.Drawing.Point(251, 473)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
+        Me.Button1.TabIndex = 5
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -88,7 +88,7 @@ Partial Class editarcargo
         Me.Txtdescrpcion.Name = "Txtdescrpcion"
         Me.Txtdescrpcion.ReadOnly = True
         Me.Txtdescrpcion.Size = New System.Drawing.Size(196, 138)
-        Me.Txtdescrpcion.TabIndex = 11
+        Me.Txtdescrpcion.TabIndex = 10
         '
         'Txtidcargo
         '
@@ -146,7 +146,7 @@ Partial Class editarcargo
         Me.Texdescripcionedit.Multiline = True
         Me.Texdescripcionedit.Name = "Texdescripcionedit"
         Me.Texdescripcionedit.Size = New System.Drawing.Size(196, 141)
-        Me.Texdescripcionedit.TabIndex = 5
+        Me.Texdescripcionedit.TabIndex = 4
         '
         'Label4
         '
@@ -207,7 +207,7 @@ Partial Class editarcargo
         Me.Button4.Location = New System.Drawing.Point(351, 473)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 27
+        Me.Button4.TabIndex = 6
         Me.Button4.Text = "Eliminar"
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -217,7 +217,7 @@ Partial Class editarcargo
         Me.ComboBox1.Location = New System.Drawing.Point(470, 198)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 28
+        Me.ComboBox1.TabIndex = 3
         '
         'editarcargo
         '

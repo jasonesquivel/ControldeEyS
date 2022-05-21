@@ -52,7 +52,7 @@ Partial Class Frmvistapreviacargos
         Me.Button1.Location = New System.Drawing.Point(589, 227)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(113, 39)
-        Me.Button1.TabIndex = 1
+        Me.Button1.TabIndex = 3
         Me.Button1.Text = "Editar"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -120,14 +120,14 @@ Partial Class Frmvistapreviacargos
         Me.dgv.RowHeadersWidth = 51
         Me.dgv.RowTemplate.Height = 24
         Me.dgv.Size = New System.Drawing.Size(551, 287)
-        Me.dgv.TabIndex = 0
+        Me.dgv.TabIndex = 5
         '
         'Button3
         '
         Me.Button3.Location = New System.Drawing.Point(225, 423)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(113, 38)
-        Me.Button3.TabIndex = 14
+        Me.Button3.TabIndex = 4
         Me.Button3.Text = "Imprimir"
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -136,7 +136,7 @@ Partial Class Frmvistapreviacargos
         Me.Button4.Location = New System.Drawing.Point(613, 115)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(68, 35)
-        Me.Button4.TabIndex = 15
+        Me.Button4.TabIndex = 1
         Me.Button4.Text = "Actualizar"
         Me.Button4.UseVisualStyleBackColor = True
         '

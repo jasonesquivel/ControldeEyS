@@ -47,11 +47,7 @@ Partial Class Form1
         Me.MenuStrip2 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExportarArchivosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExportarAArchivoLocalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EniviarPorCorreoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearRespaldoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RespaldoLocalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RespaldoEnBaseDeDatosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReporteDeDepartamentosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -156,7 +152,7 @@ Partial Class Form1
         Me.ToolStripMenuItem7.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ToolStripMenuItem7.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem8, Me.ToolStripMenuItem9, Me.ToolStripMenuItem10})
         Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(136, 24)
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(180, 24)
         Me.ToolStripMenuItem7.Text = "Corregir "
         '
         'ToolStripMenuItem8
@@ -201,25 +197,25 @@ Partial Class Form1
         'EditarEmpleadoToolStripMenuItem
         '
         Me.EditarEmpleadoToolStripMenuItem.Name = "EditarEmpleadoToolStripMenuItem"
-        Me.EditarEmpleadoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.EditarEmpleadoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
         Me.EditarEmpleadoToolStripMenuItem.Text = "Empleado"
         '
         'EditarCargoToolStripMenuItem
         '
         Me.EditarCargoToolStripMenuItem.Name = "EditarCargoToolStripMenuItem"
-        Me.EditarCargoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.EditarCargoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
         Me.EditarCargoToolStripMenuItem.Text = "Cargo"
         '
         'EditarDepartamentoToolStripMenuItem
         '
         Me.EditarDepartamentoToolStripMenuItem.Name = "EditarDepartamentoToolStripMenuItem"
-        Me.EditarDepartamentoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.EditarDepartamentoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
         Me.EditarDepartamentoToolStripMenuItem.Text = "Departamento"
         '
         'HorarioToolStripMenuItem
         '
         Me.HorarioToolStripMenuItem.Name = "HorarioToolStripMenuItem"
-        Me.HorarioToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
+        Me.HorarioToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
         Me.HorarioToolStripMenuItem.Text = "Horario"
         '
         'MenuStrip2
@@ -245,41 +241,15 @@ Partial Class Form1
         '
         'ExportarArchivosToolStripMenuItem
         '
-        Me.ExportarArchivosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExportarAArchivoLocalToolStripMenuItem, Me.EniviarPorCorreoToolStripMenuItem})
         Me.ExportarArchivosToolStripMenuItem.Name = "ExportarArchivosToolStripMenuItem"
         Me.ExportarArchivosToolStripMenuItem.Size = New System.Drawing.Size(186, 24)
         Me.ExportarArchivosToolStripMenuItem.Text = "Exportar archivo"
         '
-        'ExportarAArchivoLocalToolStripMenuItem
-        '
-        Me.ExportarAArchivoLocalToolStripMenuItem.Name = "ExportarAArchivoLocalToolStripMenuItem"
-        Me.ExportarAArchivoLocalToolStripMenuItem.Size = New System.Drawing.Size(234, 24)
-        Me.ExportarAArchivoLocalToolStripMenuItem.Text = "Exportar a archivo local"
-        '
-        'EniviarPorCorreoToolStripMenuItem
-        '
-        Me.EniviarPorCorreoToolStripMenuItem.Name = "EniviarPorCorreoToolStripMenuItem"
-        Me.EniviarPorCorreoToolStripMenuItem.Size = New System.Drawing.Size(234, 24)
-        Me.EniviarPorCorreoToolStripMenuItem.Text = "eniviar por Correo"
-        '
         'CrearRespaldoToolStripMenuItem
         '
-        Me.CrearRespaldoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RespaldoLocalToolStripMenuItem, Me.RespaldoEnBaseDeDatosToolStripMenuItem})
         Me.CrearRespaldoToolStripMenuItem.Name = "CrearRespaldoToolStripMenuItem"
         Me.CrearRespaldoToolStripMenuItem.Size = New System.Drawing.Size(186, 24)
         Me.CrearRespaldoToolStripMenuItem.Text = "Crear respaldo"
-        '
-        'RespaldoLocalToolStripMenuItem
-        '
-        Me.RespaldoLocalToolStripMenuItem.Name = "RespaldoLocalToolStripMenuItem"
-        Me.RespaldoLocalToolStripMenuItem.Size = New System.Drawing.Size(257, 24)
-        Me.RespaldoLocalToolStripMenuItem.Text = "Respaldo local"
-        '
-        'RespaldoEnBaseDeDatosToolStripMenuItem
-        '
-        Me.RespaldoEnBaseDeDatosToolStripMenuItem.Name = "RespaldoEnBaseDeDatosToolStripMenuItem"
-        Me.RespaldoEnBaseDeDatosToolStripMenuItem.Size = New System.Drawing.Size(257, 24)
-        Me.RespaldoEnBaseDeDatosToolStripMenuItem.Text = "Respaldo en base de datos"
         '
         'MenuStrip1
         '
@@ -391,11 +361,7 @@ Partial Class Form1
     Friend WithEvents EditarDepartamentoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EditarCargoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExportarArchivosToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ExportarAArchivoLocalToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents EniviarPorCorreoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CrearRespaldoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents RespaldoLocalToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents RespaldoEnBaseDeDatosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ReporteDeAsistenciaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ReporteDeDepartamentosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ReporteDeCaegoToolStripMenuItem As ToolStripMenuItem

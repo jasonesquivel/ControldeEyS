@@ -99,7 +99,7 @@ Partial Class editarempleado
         Me.Button2.Location = New System.Drawing.Point(650, 603)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 10
+        Me.Button2.TabIndex = 12
         Me.Button2.Text = "Cancelar"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -108,7 +108,7 @@ Partial Class editarempleado
         Me.Button1.Location = New System.Drawing.Point(415, 603)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 9
+        Me.Button1.TabIndex = 10
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -127,7 +127,7 @@ Partial Class editarempleado
         Me.txtidpuesto.Name = "txtidpuesto"
         Me.txtidpuesto.ReadOnly = True
         Me.txtidpuesto.Size = New System.Drawing.Size(196, 20)
-        Me.txtidpuesto.TabIndex = 16
+        Me.txtidpuesto.TabIndex = 21
         '
         'Txtidemp
         '
@@ -160,7 +160,7 @@ Partial Class editarempleado
         Me.txtemaillab.Name = "txtemaillab"
         Me.txtemaillab.ReadOnly = True
         Me.txtemaillab.Size = New System.Drawing.Size(196, 20)
-        Me.txtemaillab.TabIndex = 14
+        Me.txtemaillab.TabIndex = 19
         '
         'Label6
         '
@@ -177,7 +177,7 @@ Partial Class editarempleado
         Me.txtdireccion.Name = "txtdireccion"
         Me.txtdireccion.ReadOnly = True
         Me.txtdireccion.Size = New System.Drawing.Size(196, 20)
-        Me.txtdireccion.TabIndex = 13
+        Me.txtdireccion.TabIndex = 15
         Me.txtdireccion.Text = " "
         '
         'Label7
@@ -195,7 +195,7 @@ Partial Class editarempleado
         Me.txtnombre.Name = "txtnombre"
         Me.txtnombre.ReadOnly = True
         Me.txtnombre.Size = New System.Drawing.Size(196, 20)
-        Me.txtnombre.TabIndex = 11
+        Me.txtnombre.TabIndex = 13
         Me.txtnombre.Text = " "
         '
         'Label8
@@ -213,7 +213,7 @@ Partial Class editarempleado
         Me.txtapellido.Name = "txtapellido"
         Me.txtapellido.ReadOnly = True
         Me.txtapellido.Size = New System.Drawing.Size(196, 20)
-        Me.txtapellido.TabIndex = 12
+        Me.txtapellido.TabIndex = 14
         '
         'Label9
         '
@@ -265,7 +265,7 @@ Partial Class editarempleado
         Me.txtemaillabedit.Location = New System.Drawing.Point(687, 363)
         Me.txtemaillabedit.Name = "txtemaillabedit"
         Me.txtemaillabedit.Size = New System.Drawing.Size(196, 20)
-        Me.txtemaillabedit.TabIndex = 6
+        Me.txtemaillabedit.TabIndex = 8
         '
         'txtdireccionedit
         '
@@ -312,14 +312,14 @@ Partial Class editarempleado
         Me.txtidhorario.Name = "txtidhorario"
         Me.txtidhorario.ReadOnly = True
         Me.txtidhorario.Size = New System.Drawing.Size(196, 20)
-        Me.txtidhorario.TabIndex = 15
+        Me.txtidhorario.TabIndex = 20
         '
         'txttelefonoedit
         '
         Me.txttelefonoedit.Location = New System.Drawing.Point(687, 291)
         Me.txttelefonoedit.Name = "txttelefonoedit"
         Me.txttelefonoedit.Size = New System.Drawing.Size(196, 20)
-        Me.txttelefonoedit.TabIndex = 51
+        Me.txttelefonoedit.TabIndex = 6
         '
         'Label14
         '
@@ -336,7 +336,7 @@ Partial Class editarempleado
         Me.txttelefono.Name = "txttelefono"
         Me.txttelefono.ReadOnly = True
         Me.txttelefono.Size = New System.Drawing.Size(196, 20)
-        Me.txttelefono.TabIndex = 53
+        Me.txttelefono.TabIndex = 16
         '
         'Label15
         '
@@ -352,7 +352,7 @@ Partial Class editarempleado
         Me.txtemailperedit.Location = New System.Drawing.Point(687, 327)
         Me.txtemailperedit.Name = "txtemailperedit"
         Me.txtemailperedit.Size = New System.Drawing.Size(196, 20)
-        Me.txtemailperedit.TabIndex = 52
+        Me.txtemailperedit.TabIndex = 7
         '
         'Label16
         '
@@ -369,7 +369,7 @@ Partial Class editarempleado
         Me.txtemailper.Name = "txtemailper"
         Me.txtemailper.ReadOnly = True
         Me.txtemailper.Size = New System.Drawing.Size(196, 20)
-        Me.txtemailper.TabIndex = 54
+        Me.txtemailper.TabIndex = 18
         '
         'Label17
         '
@@ -386,7 +386,7 @@ Partial Class editarempleado
         Me.ComboBox2.Location = New System.Drawing.Point(687, 447)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(196, 21)
-        Me.ComboBox2.TabIndex = 59
+        Me.ComboBox2.TabIndex = 10
         '
         'ComboBox1
         '
@@ -394,14 +394,14 @@ Partial Class editarempleado
         Me.ComboBox1.Location = New System.Drawing.Point(687, 402)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(196, 21)
-        Me.ComboBox1.TabIndex = 60
+        Me.ComboBox1.TabIndex = 9
         '
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(533, 603)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 61
+        Me.Button4.TabIndex = 11
         Me.Button4.Text = "Eliminar"
         Me.Button4.UseVisualStyleBackColor = True
         '

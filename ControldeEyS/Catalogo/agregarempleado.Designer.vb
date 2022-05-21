@@ -148,7 +148,7 @@ Partial Class agregarempleado
         Me.Button2.Location = New System.Drawing.Point(200, 542)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 9
+        Me.Button2.TabIndex = 11
         Me.Button2.Text = "Cancelar"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -157,7 +157,7 @@ Partial Class agregarempleado
         Me.Button1.Location = New System.Drawing.Point(89, 542)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 8
+        Me.Button1.TabIndex = 10
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -211,7 +211,7 @@ Partial Class agregarempleado
         Me.ComboBox1.Location = New System.Drawing.Point(148, 393)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(196, 21)
-        Me.ComboBox1.TabIndex = 75
+        Me.ComboBox1.TabIndex = 8
         '
         'ComboBox2
         '
@@ -219,7 +219,7 @@ Partial Class agregarempleado
         Me.ComboBox2.Location = New System.Drawing.Point(148, 438)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(196, 21)
-        Me.ComboBox2.TabIndex = 76
+        Me.ComboBox2.TabIndex = 9
         '
         'agregarempleado
         '

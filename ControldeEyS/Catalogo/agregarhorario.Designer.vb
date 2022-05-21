@@ -52,7 +52,7 @@ Partial Class agregarhorario
         Me.txthoradesalida.Mask = "00:00"
         Me.txthoradesalida.Name = "txthoradesalida"
         Me.txthoradesalida.Size = New System.Drawing.Size(100, 20)
-        Me.txthoradesalida.TabIndex = 125
+        Me.txthoradesalida.TabIndex = 3
         '
         'txthoradeentradaedit
         '
@@ -60,7 +60,7 @@ Partial Class agregarhorario
         Me.txthoradeentradaedit.Mask = "00:00"
         Me.txthoradeentradaedit.Name = "txthoradeentradaedit"
         Me.txthoradeentradaedit.Size = New System.Drawing.Size(100, 20)
-        Me.txthoradeentradaedit.TabIndex = 124
+        Me.txthoradeentradaedit.TabIndex = 2
         '
         'PictureBox1
         '
@@ -77,7 +77,7 @@ Partial Class agregarhorario
         Me.txtiddepagregar.Location = New System.Drawing.Point(111, 115)
         Me.txtiddepagregar.Name = "txtiddepagregar"
         Me.txtiddepagregar.Size = New System.Drawing.Size(196, 20)
-        Me.txtiddepagregar.TabIndex = 116
+        Me.txtiddepagregar.TabIndex = 1
         '
         'Label1
         '
@@ -103,7 +103,7 @@ Partial Class agregarhorario
         Me.Texdescripcionagregar.Multiline = True
         Me.Texdescripcionagregar.Name = "Texdescripcionagregar"
         Me.Texdescripcionagregar.Size = New System.Drawing.Size(196, 141)
-        Me.Texdescripcionagregar.TabIndex = 117
+        Me.Texdescripcionagregar.TabIndex = 4
         '
         'Label4
         '
@@ -119,7 +119,7 @@ Partial Class agregarhorario
         Me.Button2.Location = New System.Drawing.Point(191, 414)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 119
+        Me.Button2.TabIndex = 6
         Me.Button2.Text = "Cancelar"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -128,7 +128,7 @@ Partial Class agregarhorario
         Me.Button1.Location = New System.Drawing.Point(80, 414)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 118
+        Me.Button1.TabIndex = 5
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -149,6 +149,7 @@ Partial Class agregarhorario
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "agregarhorario"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "agregarhorario"

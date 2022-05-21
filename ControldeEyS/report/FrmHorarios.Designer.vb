@@ -43,7 +43,7 @@ Partial Class FrmHorarios
         Me.Button3.Location = New System.Drawing.Point(187, 423)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(113, 39)
-        Me.Button3.TabIndex = 29
+        Me.Button3.TabIndex = 4
         Me.Button3.Text = "Imprimir"
         Me.Button3.UseVisualStyleBackColor = True
         '
@@ -52,7 +52,7 @@ Partial Class FrmHorarios
         Me.Button4.Location = New System.Drawing.Point(517, 110)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(68, 35)
-        Me.Button4.TabIndex = 28
+        Me.Button4.TabIndex = 1
         Me.Button4.Text = "Actualizar"
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -79,7 +79,7 @@ Partial Class FrmHorarios
         Me.dgv.RowHeadersWidth = 51
         Me.dgv.RowTemplate.Height = 24
         Me.dgv.Size = New System.Drawing.Size(440, 287)
-        Me.dgv.TabIndex = 0
+        Me.dgv.TabIndex = 5
         '
         'Panel1
         '
@@ -114,7 +114,7 @@ Partial Class FrmHorarios
         Me.Button2.Location = New System.Drawing.Point(493, 161)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(113, 39)
-        Me.Button2.TabIndex = 24
+        Me.Button2.TabIndex = 2
         Me.Button2.Text = "Agregar"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -123,7 +123,7 @@ Partial Class FrmHorarios
         Me.Button1.Location = New System.Drawing.Point(493, 222)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(113, 39)
-        Me.Button1.TabIndex = 23
+        Me.Button1.TabIndex = 3
         Me.Button1.Text = "Editar"
         Me.Button1.UseVisualStyleBackColor = True
         '

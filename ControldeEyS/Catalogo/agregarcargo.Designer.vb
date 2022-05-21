@@ -143,7 +143,7 @@ Partial Class agregarcargo
         Me.ComboBox1.Location = New System.Drawing.Point(91, 238)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(196, 21)
-        Me.ComboBox1.TabIndex = 11
+        Me.ComboBox1.TabIndex = 3
         '
         'agregarcargo
         '
