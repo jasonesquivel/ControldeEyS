@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsregistro" targetNamespace="http://tempuri.org/dsregistro.xsd" xmlns:mstns="http://tempuri.org/dsregistro.xsd" xmlns="http://tempuri.org/dsregistro.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsregistro" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsregistro" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsregistro">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtempleados" msprop:Generator_RowEvHandlerName="dtempleadosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtempleadosRowDeleted" msprop:Generator_RowDeletingName="dtempleadosRowDeleting" msprop:Generator_RowEvArgName="dtempleadosRowChangeEvent" msprop:Generator_TablePropName="dtempleados" msprop:Generator_RowChangedName="dtempleadosRowChanged" msprop:Generator_UserTableName="dtempleados" msprop:Generator_RowChangingName="dtempleadosRowChanging" msprop:Generator_RowClassName="dtempleadosRow" msprop:Generator_TableClassName="dtempleadosDataTable" msprop:Generator_TableVarName="tabledtempleados">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cedula" msdata:Caption="Cedúla" msprop:Generator_ColumnPropNameInTable="cedulaColumn" msprop:Generator_ColumnPropNameInRow="cedula" msprop:Generator_UserColumnName="cedula" msprop:Generator_ColumnVarNameInTable="columncedula" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_UserColumnName="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ciudad" msprop:Generator_ColumnPropNameInTable="ciudadColumn" msprop:Generator_ColumnPropNameInRow="ciudad" msprop:Generator_UserColumnName="ciudad" msprop:Generator_ColumnVarNameInTable="columnciudad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="direccion" msdata:Caption="Dirección" msprop:Generator_ColumnPropNameInTable="direccionColumn" msprop:Generator_ColumnPropNameInRow="direccion" msprop:Generator_UserColumnName="direccion" msprop:Generator_ColumnVarNameInTable="columndireccion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cargo" msprop:Generator_ColumnPropNameInTable="cargoColumn" msprop:Generator_ColumnPropNameInRow="cargo" msprop:Generator_UserColumnName="cargo" msprop:Generator_ColumnVarNameInTable="columncargo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fechanacimiento" msprop:Generator_ColumnPropNameInTable="fechanacimientoColumn" msprop:Generator_ColumnPropNameInRow="fechanacimiento" msprop:Generator_UserColumnName="fechanacimiento" msprop:Generator_ColumnVarNameInTable="columnfechanacimiento" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fechaingreso" msprop:Generator_ColumnPropNameInTable="fechaingresoColumn" msprop:Generator_ColumnPropNameInRow="fechaingreso" msprop:Generator_UserColumnName="fechaingreso" msprop:Generator_ColumnVarNameInTable="columnfechaingreso" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="telefono" msdata:Caption="Telefono" msprop:Generator_ColumnPropNameInTable="telefonoColumn" msprop:Generator_ColumnPropNameInRow="telefono" msprop:Generator_UserColumnName="telefono" msprop:Generator_ColumnVarNameInTable="columntelefono" type="xs:string" minOccurs="0" />
+              <xs:element name="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_UserColumnName="email" msprop:Generator_ColumnVarNameInTable="columnemail" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="departamento" msprop:Generator_UserColumnName="departamento" msprop:Generator_ColumnPropNameInTable="departamentoColumn" msprop:Generator_ColumnPropNameInRow="departamento" msprop:Generator_ColumnVarNameInTable="columndepartamento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtdepartamentos" msprop:Generator_RowEvHandlerName="dtdepartamentosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtdepartamentosRowDeleted" msprop:Generator_RowDeletingName="dtdepartamentosRowDeleting" msprop:Generator_RowEvArgName="dtdepartamentosRowChangeEvent" msprop:Generator_TablePropName="dtdepartamentos" msprop:Generator_RowChangedName="dtdepartamentosRowChanged" msprop:Generator_UserTableName="dtdepartamentos" msprop:Generator_RowChangingName="dtdepartamentosRowChanging" msprop:Generator_RowClassName="dtdepartamentosRow" msprop:Generator_TableClassName="dtdepartamentosDataTable" msprop:Generator_TableVarName="tabledtdepartamentos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:Caption="Cedúla" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnVarNameInTable="columnid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CantEmp" msdata:Caption="apellido" msprop:Generator_ColumnPropNameInTable="CantEmpColumn" msprop:Generator_ColumnPropNameInRow="CantEmp" msprop:Generator_UserColumnName="CantEmp" msprop:Generator_ColumnVarNameInTable="columnCantEmp" type="xs:int" minOccurs="0" />
+              <xs:element name="Jefedep" msdata:Caption="ciudad" msprop:Generator_ColumnPropNameInTable="JefedepColumn" msprop:Generator_ColumnPropNameInRow="Jefedep" msprop:Generator_UserColumnName="Jefedep" msprop:Generator_ColumnVarNameInTable="columnJefedep" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ext" msdata:Caption="Dirección" msprop:Generator_ColumnPropNameInTable="extColumn" msprop:Generator_ColumnPropNameInRow="ext" msprop:Generator_UserColumnName="ext" msprop:Generator_ColumnVarNameInTable="columnext" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="email" msprop:Generator_ColumnPropNameInTable="emailColumn" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_UserColumnName="email" msprop:Generator_ColumnVarNameInTable="columnemail" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtcargo" msprop:Generator_RowEvHandlerName="dtcargoRowChangeEventHandler" msprop:Generator_RowDeletedName="dtcargoRowDeleted" msprop:Generator_RowDeletingName="dtcargoRowDeleting" msprop:Generator_RowEvArgName="dtcargoRowChangeEvent" msprop:Generator_TablePropName="dtcargo" msprop:Generator_RowChangedName="dtcargoRowChanged" msprop:Generator_UserTableName="dtcargo" msprop:Generator_RowChangingName="dtcargoRowChanging" msprop:Generator_RowClassName="dtcargoRow" msprop:Generator_TableClassName="dtcargoDataTable" msprop:Generator_TableVarName="tabledtcargo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:Caption="Cedúla" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnVarNameInTable="columnid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:dtempleados" />
+      <xs:field xpath="mstns:cedula" />
+    </xs:unique>
+    <xs:unique name="dtdepartamentos_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:dtdepartamentos" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="dtcargo_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:dtcargo" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

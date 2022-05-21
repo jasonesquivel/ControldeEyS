@@ -1,0 +1,314 @@
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe.config
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.pdb
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.xml
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\EnvDTE.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\stdole.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.MSXML.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbprojAssemblyReference.cache
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Form1.resources
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Resources.resources
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Frmvistaprevia.resources
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.GenerateResource.cache
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\RdlCompile.cache
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\RdlCompile.compiled
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CoreCompileInputs.cache
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CopyComplete
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.exe
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.xml
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.pdb
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Frmvistapreviacargos.resources
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.rptdepartamentos.resources
+C:\Users\isi10\source\repos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Form2.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe.config
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.pdb
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.xml
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\EnvDTE.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\stdole.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.AssemblyReference.cache
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.SuggestedBindingRedirects.cache
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Form1.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Resources.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Frmvistapreviacargos.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.GenerateResource.cache
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CoreCompileInputs.cache
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CopyComplete
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.exe
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.xml
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.pdb
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.LogIn.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarcargo.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarcargo.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarempleado.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregardepartamento.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarempleado.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editardep.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe.config
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.pdb
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.xml
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\EnvDTE.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\stdole.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.AssemblyReference.cache
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.SuggestedBindingRedirects.cache
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregardepartamento.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarempleado.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarcargo.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarcargo.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editardep.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarempleado.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Form1.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.LogIn.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Resources.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Frmvistapreviacargos.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.GenerateResource.cache
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CoreCompileInputs.cache
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CopyComplete
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.exe
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.xml
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.pdb
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Imprimir.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.AssemblyReference.cache
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.SuggestedBindingRedirects.cache
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregardepartamento.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarempleado.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarcargo.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarcargo.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editardep.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarempleado.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Form1.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.LogIn.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Resources.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Imprimir.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Frmvistapreviacargos.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.GenerateResource.cache
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CoreCompileInputs.cache
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.exe
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.xml
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.pdb
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe.config
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.exe
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.pdb
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ControldeEyS.xml
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\EnvDTE.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\stdole.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.vbproj.CopyComplete
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmEmpleados.resources
+C:\Users\kwzz1\Documents\Peligro, no tocar, borrar despues de usar\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmDepartamentos.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Imprimir.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmEmpleados.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmDepartamentos.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmHorarios.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarhorariovb.resources
+C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarhorario.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.agregarhorario.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.editarhorariovb.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmHorarios.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmEmpleados.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.FrmDepartamentos.resources

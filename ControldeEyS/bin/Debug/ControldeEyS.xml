@@ -1,0 +1,416 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ControldeEyS
+</name>
+</assembly>
+<members>
+<member name="T:ControldeEyS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ControldeEyS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ControldeEyS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.DepartamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.EmpleadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.EmpleadologinDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.HorarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.LogInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.PuestoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.RegistrodeEyRDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.DepartamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.EmpleadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.EmpleadologinRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.HorarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.LogInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.PuestoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.RegistrodeEyRRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.DepartamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.EmpleadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.EmpleadologinRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.HorarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.LogInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.PuestoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSet.RegistrodeEyRRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.DepartamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.EmpleadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.EmpleadologinTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.HorarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.LogInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.PuestoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.RegistrodeEyRTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ControldeEyS.registroEyRpruebaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ControldeEyS.registroEyRpruebaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ControldeEyS.registroEyRpruebaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager.UpdateAll(ControldeEyS.registroEyRpruebaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ControldeEyS.registroEyRpruebaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DepartamentoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.EmpleadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.EmpleadologinDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.HorarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.LogInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.PuestoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistrodeEyRDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DepartamentoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.EmpleadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.EmpleadologinRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.HorarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.LogInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.PuestoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistrodeEyRRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DepartamentoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.EmpleadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.EmpleadologinRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.HorarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.LogInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.PuestoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistrodeEyRRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DepartamentoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.EmpleadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.EmpleadologinTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.HorarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.LogInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.PuestoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.RegistrodeEyRTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager.UpdateUpdatedRows(ControldeEyS.dsRegistroEyR,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager.UpdateInsertedRows(ControldeEyS.dsRegistroEyR,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager.UpdateDeletedRows(ControldeEyS.dsRegistroEyR,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager.UpdateAll(ControldeEyS.dsRegistroEyR)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
