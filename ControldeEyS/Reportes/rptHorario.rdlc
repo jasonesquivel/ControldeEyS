@@ -2,43 +2,43 @@
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
-      <Tablix Name="Tablix1">
+      <Tablix Name="Tablix2">
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>5.50333cm</Width>
+              <Width>7.0775cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>5.50333cm</Width>
+              <Width>7.0775cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>5.50333cm</Width>
+              <Width>5.12445cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.61126cm</Width>
+              <Width>5.7895cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.84342cm</Height>
+              <Height>1.65364cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox1">
+                    <Textbox Name="Textbox13">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>idpuesto</Value>
+                              <Value>id horario</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox1</rd:DefaultName>
+                      <rd:DefaultName>Textbox13</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -54,21 +54,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox3">
+                    <Textbox Name="Textbox15">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>nombre</Value>
+                              <Value>descripcion horario</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <rd:DefaultName>Textbox15</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -84,21 +84,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox5">
+                    <Textbox Name="Textbox18">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>descripcion</Value>
+                              <Value>hora de entrada</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <rd:DefaultName>Textbox18</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -114,21 +114,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox7">
+                    <Textbox Name="Textbox23">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Departamento</Value>
+                              <Value>hora de salida</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox7</rd:DefaultName>
+                      <rd:DefaultName>Textbox23</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -145,25 +145,25 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>1.33025cm</Height>
+              <Height>1.65364cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="idpuesto">
+                    <Textbox Name="idhorario">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!idpuesto.Value</Value>
+                              <Value>=Fields!idhorario.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>idpuesto</rd:DefaultName>
+                      <rd:DefaultName>idhorario</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -179,21 +179,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="nombre">
+                    <Textbox Name="descripcionhorario">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!nombre.Value</Value>
+                              <Value>=Fields!descripcionhorario.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>nombre</rd:DefaultName>
+                      <rd:DefaultName>descripcionhorario</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -209,21 +209,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="descripcion">
+                    <Textbox Name="horadeentrada">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!descripcion.Value</Value>
+                              <Value>=Fields!horadeentrada.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>descripcion</rd:DefaultName>
+                      <rd:DefaultName>horadeentrada</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -239,21 +239,21 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="iddepartamento">
+                    <Textbox Name="horadesalida">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Sum(Fields!iddepartamento.Value)</Value>
+                              <Value>=Fields!horadesalida.Value</Value>
                               <Style />
                             </TextRun>
                           </TextRuns>
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>iddepartamento</rd:DefaultName>
+                      <rd:DefaultName>horadesalida</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -285,21 +285,14 @@
               <KeepWithGroup>After</KeepWithGroup>
             </TablixMember>
             <TablixMember>
-              <Group Name="Details">
-                <GroupExpressions>
-                  <GroupExpression>=Fields!idpuesto.Value</GroupExpression>
-                  <GroupExpression>=Fields!nombre.Value</GroupExpression>
-                  <GroupExpression>=Fields!descripcion.Value</GroupExpression>
-                  <GroupExpression>=Fields!iddepartamento.Value</GroupExpression>
-                </GroupExpressions>
-              </Group>
+              <Group Name="Details" />
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.07056cm</Top>
-        <Height>2.17367cm</Height>
-        <Width>20.12125cm</Width>
+        <Top>0.03528cm</Top>
+        <Height>3.30728cm</Height>
+        <Width>25.06896cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -307,10 +300,10 @@
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>0.88356in</Height>
+    <Height>1.31597in</Height>
     <Style />
   </Body>
-  <Width>7.92175in</Width>
+  <Width>9.86967in</Width>
   <Page>
     <PageHeader>
       <Height>2.54cm</Height>
@@ -324,7 +317,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>Reporte de cargos</Value>
+                  <Value>Reporte Horarios</Value>
                   <Style>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
@@ -366,7 +359,7 @@
           </Paragraphs>
           <rd:DefaultName>Textbox17</rd:DefaultName>
           <Top>0.40252cm</Top>
-          <Left>6.70529cm</Left>
+          <Left>7.26091cm</Left>
           <Height>1.04979cm</Height>
           <Width>7.02375cm</Width>
           <Style>
@@ -395,7 +388,7 @@
           </Paragraphs>
           <rd:DefaultName>ExecutionTime</rd:DefaultName>
           <Top>1.90472cm</Top>
-          <Left>11.85049cm</Left>
+          <Left>12.96174cm</Left>
           <Height>0.6cm</Height>
           <Width>5.04126cm</Width>
           <ZIndex>1</ZIndex>
@@ -414,7 +407,7 @@
           <Value>Sintítulo3</Value>
           <Sizing>FitProportional</Sizing>
           <Top>0.03528cm</Top>
-          <Left>2.11825cm</Left>
+          <Left>3.2295cm</Left>
           <Height>2.03165cm</Height>
           <Width>1.94979cm</Width>
           <ZIndex>2</ZIndex>
@@ -451,8 +444,8 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox20</rd:DefaultName>
-          <Top>0.96999cm</Top>
-          <Left>16.51cm</Left>
+          <Top>1.36688cm</Top>
+          <Left>16.03862cm</Left>
           <Height>0.6cm</Height>
           <Width>2.5cm</Width>
           <Style>
@@ -488,7 +481,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>ae26b7ee-622a-43e6-bba7-2d09e6c74984</rd:DataSourceID>
+      <rd:DataSourceID>b63bbb0d-ecca-4f2b-974f-3bd41581646e</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -498,34 +491,30 @@
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
-        <Field Name="idpuesto">
-          <DataField>idpuesto</DataField>
+        <Field Name="idhorario">
+          <DataField>idhorario</DataField>
           <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
-        <Field Name="nombre">
-          <DataField>nombre</DataField>
+        <Field Name="descripcionhorario">
+          <DataField>descripcionhorario</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="descripcion">
-          <DataField>descripcion</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
+        <Field Name="horadeentrada">
+          <DataField>horadeentrada</DataField>
+          <rd:TypeName>System.TimeSpan</rd:TypeName>
         </Field>
-        <Field Name="estado">
-          <DataField>estado</DataField>
-          <rd:TypeName>System.Boolean</rd:TypeName>
-        </Field>
-        <Field Name="iddepartamento">
-          <DataField>iddepartamento</DataField>
-          <rd:TypeName>System.Int32</rd:TypeName>
+        <Field Name="horadesalida">
+          <DataField>horadesalida</DataField>
+          <rd:TypeName>System.TimeSpan</rd:TypeName>
         </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>registroEyRpruebaDataSet</rd:DataSetName>
         <rd:SchemaPath>C:\Users\kwzz1\Desktop\ControldeEyS\ControldeEyS\registroEyRpruebaDataSet.xsd</rd:SchemaPath>
-        <rd:TableName>Puesto</rd:TableName>
+        <rd:TableName>Horario</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>PuestoTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterName>HorarioTableAdapter</rd:TableAdapterName>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
@@ -584,5 +573,5 @@ SUVORK5CYII=</ImageData>
     </EmbeddedImage>
   </EmbeddedImages>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
-  <rd:ReportID>b9b7f5b8-a525-4656-acfc-578a858f43a4</rd:ReportID>
+  <rd:ReportID>54f35071-6373-4920-bce1-fef7ef3af760</rd:ReportID>
 </Report>
