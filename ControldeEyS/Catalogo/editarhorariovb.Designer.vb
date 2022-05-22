@@ -42,12 +42,14 @@ Partial Class editarhorariovb
         Me.Txtdescripcion = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtshoradealidaedit
         '
-        Me.txtshoradealidaedit.Location = New System.Drawing.Point(593, 193)
+        Me.txtshoradealidaedit.Location = New System.Drawing.Point(592, 215)
         Me.txtshoradealidaedit.Mask = "00:00:00"
         Me.txtshoradealidaedit.Name = "txtshoradealidaedit"
         Me.txtshoradealidaedit.Size = New System.Drawing.Size(100, 20)
@@ -55,7 +57,7 @@ Partial Class editarhorariovb
         '
         'txthoradeentradaedit
         '
-        Me.txthoradeentradaedit.Location = New System.Drawing.Point(593, 151)
+        Me.txthoradeentradaedit.Location = New System.Drawing.Point(592, 173)
         Me.txthoradeentradaedit.Mask = "00:00:00"
         Me.txthoradeentradaedit.Name = "txthoradeentradaedit"
         Me.txthoradeentradaedit.Size = New System.Drawing.Size(100, 20)
@@ -70,7 +72,7 @@ Partial Class editarhorariovb
         '
         'txtentrada
         '
-        Me.txtentrada.Location = New System.Drawing.Point(192, 147)
+        Me.txtentrada.Location = New System.Drawing.Point(191, 169)
         Me.txtentrada.Name = "txtentrada"
         Me.txtentrada.ReadOnly = True
         Me.txtentrada.Size = New System.Drawing.Size(196, 20)
@@ -78,7 +80,7 @@ Partial Class editarhorariovb
         '
         'Txtsalida
         '
-        Me.Txtsalida.Location = New System.Drawing.Point(192, 193)
+        Me.Txtsalida.Location = New System.Drawing.Point(191, 215)
         Me.Txtsalida.Name = "Txtsalida"
         Me.Txtsalida.ReadOnly = True
         Me.Txtsalida.Size = New System.Drawing.Size(196, 20)
@@ -87,7 +89,7 @@ Partial Class editarhorariovb
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(490, 196)
+        Me.Label5.Location = New System.Drawing.Point(489, 218)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(75, 13)
         Me.Label5.TabIndex = 127
@@ -96,7 +98,7 @@ Partial Class editarhorariovb
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(490, 154)
+        Me.Label6.Location = New System.Drawing.Point(489, 176)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(84, 13)
         Me.Label6.TabIndex = 126
@@ -105,7 +107,7 @@ Partial Class editarhorariovb
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(89, 196)
+        Me.Label7.Location = New System.Drawing.Point(88, 218)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(75, 13)
         Me.Label7.TabIndex = 125
@@ -114,7 +116,7 @@ Partial Class editarhorariovb
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(89, 154)
+        Me.Label2.Location = New System.Drawing.Point(88, 176)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(84, 13)
         Me.Label2.TabIndex = 124
@@ -141,7 +143,7 @@ Partial Class editarhorariovb
         '
         'Texdescripcionedit
         '
-        Me.Texdescripcionedit.Location = New System.Drawing.Point(593, 243)
+        Me.Texdescripcionedit.Location = New System.Drawing.Point(592, 265)
         Me.Texdescripcionedit.Multiline = True
         Me.Texdescripcionedit.Name = "Texdescripcionedit"
         Me.Texdescripcionedit.Size = New System.Drawing.Size(196, 141)
@@ -150,7 +152,7 @@ Partial Class editarhorariovb
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(490, 243)
+        Me.Label4.Location = New System.Drawing.Point(489, 265)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(63, 13)
         Me.Label4.TabIndex = 121
@@ -185,7 +187,7 @@ Partial Class editarhorariovb
         '
         'Txtdescripcion
         '
-        Me.Txtdescripcion.Location = New System.Drawing.Point(192, 243)
+        Me.Txtdescripcion.Location = New System.Drawing.Point(191, 265)
         Me.Txtdescripcion.Multiline = True
         Me.Txtdescripcion.Name = "Txtdescripcion"
         Me.Txtdescripcion.ReadOnly = True
@@ -195,7 +197,7 @@ Partial Class editarhorariovb
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(89, 243)
+        Me.Label3.Location = New System.Drawing.Point(88, 265)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(63, 13)
         Me.Label3.TabIndex = 120
@@ -210,12 +212,32 @@ Partial Class editarhorariovb
         Me.Label1.TabIndex = 119
         Me.Label1.Text = "ID "
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(246, 141)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(82, 13)
+        Me.Label8.TabIndex = 128
+        Me.Label8.Text = "Datos originales"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(631, 141)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(78, 13)
+        Me.Label9.TabIndex = 129
+        Me.Label9.Text = "Datos editados"
+        '
         'editarhorariovb
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
         Me.ClientSize = New System.Drawing.Size(870, 491)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.txtshoradealidaedit)
         Me.Controls.Add(Me.txthoradeentradaedit)
         Me.Controls.Add(Me.Txtidhorario)
@@ -264,4 +286,6 @@ Partial Class editarhorariovb
     Friend WithEvents Txtdescripcion As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class

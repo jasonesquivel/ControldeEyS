@@ -38,12 +38,14 @@ Partial Class editardep
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtnombreedit
         '
-        Me.txtnombreedit.Location = New System.Drawing.Point(686, 180)
+        Me.txtnombreedit.Location = New System.Drawing.Point(687, 207)
         Me.txtnombreedit.Name = "txtnombreedit"
         Me.txtnombreedit.Size = New System.Drawing.Size(196, 20)
         Me.txtnombreedit.TabIndex = 2
@@ -51,7 +53,7 @@ Partial Class editardep
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(583, 187)
+        Me.Label10.Location = New System.Drawing.Point(584, 214)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(44, 13)
         Me.Label10.TabIndex = 80
@@ -59,7 +61,7 @@ Partial Class editardep
         '
         'txtnombre
         '
-        Me.txtnombre.Location = New System.Drawing.Point(285, 180)
+        Me.txtnombre.Location = New System.Drawing.Point(286, 207)
         Me.txtnombre.Name = "txtnombre"
         Me.txtnombre.ReadOnly = True
         Me.txtnombre.Size = New System.Drawing.Size(196, 20)
@@ -69,7 +71,7 @@ Partial Class editardep
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(182, 180)
+        Me.Label8.Location = New System.Drawing.Point(183, 207)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(44, 13)
         Me.Label8.TabIndex = 75
@@ -87,7 +89,7 @@ Partial Class editardep
         '
         'Texdescripcionedit
         '
-        Me.Texdescripcionedit.Location = New System.Drawing.Point(686, 226)
+        Me.Texdescripcionedit.Location = New System.Drawing.Point(687, 253)
         Me.Texdescripcionedit.Multiline = True
         Me.Texdescripcionedit.Name = "Texdescripcionedit"
         Me.Texdescripcionedit.Size = New System.Drawing.Size(196, 141)
@@ -96,7 +98,7 @@ Partial Class editardep
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(583, 226)
+        Me.Label4.Location = New System.Drawing.Point(584, 253)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(63, 13)
         Me.Label4.TabIndex = 65
@@ -131,7 +133,7 @@ Partial Class editardep
         '
         'Txtdescripcion
         '
-        Me.Txtdescripcion.Location = New System.Drawing.Point(285, 226)
+        Me.Txtdescripcion.Location = New System.Drawing.Point(286, 253)
         Me.Txtdescripcion.Multiline = True
         Me.Txtdescripcion.Name = "Txtdescripcion"
         Me.Txtdescripcion.ReadOnly = True
@@ -148,7 +150,7 @@ Partial Class editardep
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(182, 226)
+        Me.Label3.Location = New System.Drawing.Point(183, 253)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(63, 13)
         Me.Label3.TabIndex = 57
@@ -172,12 +174,32 @@ Partial Class editardep
         Me.Button4.Text = "Eliminar"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(726, 175)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(78, 13)
+        Me.Label9.TabIndex = 131
+        Me.Label9.Text = "Datos editados"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(341, 175)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(82, 13)
+        Me.Label2.TabIndex = 130
+        Me.Label2.Text = "Datos originales"
+        '
         'editardep
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
         Me.ClientSize = New System.Drawing.Size(1113, 513)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.txtnombreedit)
         Me.Controls.Add(Me.Label10)
@@ -218,4 +240,6 @@ Partial Class editardep
     Friend WithEvents Label3 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Button4 As Button
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label2 As Label
 End Class

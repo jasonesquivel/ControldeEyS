@@ -63,6 +63,8 @@ Partial Class editarempleado
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.Label19 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -79,7 +81,7 @@ Partial Class editarempleado
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(593, 454)
+        Me.Label4.Location = New System.Drawing.Point(610, 483)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(40, 13)
         Me.Label4.TabIndex = 35
@@ -123,7 +125,7 @@ Partial Class editarempleado
         '
         'txtidpuesto
         '
-        Me.txtidpuesto.Location = New System.Drawing.Point(282, 447)
+        Me.txtidpuesto.Location = New System.Drawing.Point(299, 476)
         Me.txtidpuesto.Name = "txtidpuesto"
         Me.txtidpuesto.ReadOnly = True
         Me.txtidpuesto.Size = New System.Drawing.Size(196, 20)
@@ -139,7 +141,7 @@ Partial Class editarempleado
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(194, 450)
+        Me.Label3.Location = New System.Drawing.Point(211, 479)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(53, 13)
         Me.Label3.TabIndex = 26
@@ -156,7 +158,7 @@ Partial Class editarempleado
         '
         'txtemaillab
         '
-        Me.txtemaillab.Location = New System.Drawing.Point(282, 363)
+        Me.txtemaillab.Location = New System.Drawing.Point(299, 392)
         Me.txtemaillab.Name = "txtemaillab"
         Me.txtemaillab.ReadOnly = True
         Me.txtemaillab.Size = New System.Drawing.Size(196, 20)
@@ -165,7 +167,7 @@ Partial Class editarempleado
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(194, 366)
+        Me.Label6.Location = New System.Drawing.Point(211, 395)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(66, 13)
         Me.Label6.TabIndex = 39
@@ -173,7 +175,7 @@ Partial Class editarempleado
         '
         'txtdireccion
         '
-        Me.txtdireccion.Location = New System.Drawing.Point(282, 252)
+        Me.txtdireccion.Location = New System.Drawing.Point(299, 281)
         Me.txtdireccion.Name = "txtdireccion"
         Me.txtdireccion.ReadOnly = True
         Me.txtdireccion.Size = New System.Drawing.Size(196, 20)
@@ -183,7 +185,7 @@ Partial Class editarempleado
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(193, 255)
+        Me.Label7.Location = New System.Drawing.Point(210, 284)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(52, 13)
         Me.Label7.TabIndex = 41
@@ -191,7 +193,7 @@ Partial Class editarempleado
         '
         'txtnombre
         '
-        Me.txtnombre.Location = New System.Drawing.Point(282, 185)
+        Me.txtnombre.Location = New System.Drawing.Point(299, 214)
         Me.txtnombre.Name = "txtnombre"
         Me.txtnombre.ReadOnly = True
         Me.txtnombre.Size = New System.Drawing.Size(196, 20)
@@ -201,7 +203,7 @@ Partial Class editarempleado
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(194, 192)
+        Me.Label8.Location = New System.Drawing.Point(211, 221)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(44, 13)
         Me.Label8.TabIndex = 45
@@ -209,7 +211,7 @@ Partial Class editarempleado
         '
         'txtapellido
         '
-        Me.txtapellido.Location = New System.Drawing.Point(282, 220)
+        Me.txtapellido.Location = New System.Drawing.Point(299, 249)
         Me.txtapellido.Name = "txtapellido"
         Me.txtapellido.ReadOnly = True
         Me.txtapellido.Size = New System.Drawing.Size(196, 20)
@@ -218,7 +220,7 @@ Partial Class editarempleado
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(194, 227)
+        Me.Label9.Location = New System.Drawing.Point(211, 256)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(44, 13)
         Me.Label9.TabIndex = 43
@@ -227,7 +229,7 @@ Partial Class editarempleado
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(589, 188)
+        Me.Label10.Location = New System.Drawing.Point(606, 217)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(44, 13)
         Me.Label10.TabIndex = 50
@@ -236,7 +238,7 @@ Partial Class editarempleado
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(589, 227)
+        Me.Label11.Location = New System.Drawing.Point(606, 256)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(44, 13)
         Me.Label11.TabIndex = 49
@@ -245,7 +247,7 @@ Partial Class editarempleado
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(589, 255)
+        Me.Label12.Location = New System.Drawing.Point(606, 284)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(52, 13)
         Me.Label12.TabIndex = 48
@@ -254,7 +256,7 @@ Partial Class editarempleado
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(589, 366)
+        Me.Label13.Location = New System.Drawing.Point(606, 395)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(66, 13)
         Me.Label13.TabIndex = 47
@@ -262,28 +264,28 @@ Partial Class editarempleado
         '
         'txtemaillabedit
         '
-        Me.txtemaillabedit.Location = New System.Drawing.Point(687, 363)
+        Me.txtemaillabedit.Location = New System.Drawing.Point(704, 392)
         Me.txtemaillabedit.Name = "txtemaillabedit"
         Me.txtemaillabedit.Size = New System.Drawing.Size(196, 20)
         Me.txtemaillabedit.TabIndex = 8
         '
         'txtdireccionedit
         '
-        Me.txtdireccionedit.Location = New System.Drawing.Point(687, 252)
+        Me.txtdireccionedit.Location = New System.Drawing.Point(704, 281)
         Me.txtdireccionedit.Name = "txtdireccionedit"
         Me.txtdireccionedit.Size = New System.Drawing.Size(196, 20)
         Me.txtdireccionedit.TabIndex = 5
         '
         'txtapellidoedit
         '
-        Me.txtapellidoedit.Location = New System.Drawing.Point(687, 220)
+        Me.txtapellidoedit.Location = New System.Drawing.Point(704, 249)
         Me.txtapellidoedit.Name = "txtapellidoedit"
         Me.txtapellidoedit.Size = New System.Drawing.Size(196, 20)
         Me.txtapellidoedit.TabIndex = 4
         '
         'txtnombreedit
         '
-        Me.txtnombreedit.Location = New System.Drawing.Point(687, 185)
+        Me.txtnombreedit.Location = New System.Drawing.Point(704, 214)
         Me.txtnombreedit.Name = "txtnombreedit"
         Me.txtnombreedit.Size = New System.Drawing.Size(196, 20)
         Me.txtnombreedit.TabIndex = 3
@@ -291,7 +293,7 @@ Partial Class editarempleado
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(194, 402)
+        Me.Label2.Location = New System.Drawing.Point(211, 431)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(55, 13)
         Me.Label2.TabIndex = 25
@@ -300,7 +302,7 @@ Partial Class editarempleado
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(589, 402)
+        Me.Label5.Location = New System.Drawing.Point(606, 431)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(41, 13)
         Me.Label5.TabIndex = 34
@@ -308,7 +310,7 @@ Partial Class editarempleado
         '
         'txtidhorario
         '
-        Me.txtidhorario.Location = New System.Drawing.Point(282, 399)
+        Me.txtidhorario.Location = New System.Drawing.Point(299, 428)
         Me.txtidhorario.Name = "txtidhorario"
         Me.txtidhorario.ReadOnly = True
         Me.txtidhorario.Size = New System.Drawing.Size(196, 20)
@@ -316,7 +318,7 @@ Partial Class editarempleado
         '
         'txttelefonoedit
         '
-        Me.txttelefonoedit.Location = New System.Drawing.Point(687, 291)
+        Me.txttelefonoedit.Location = New System.Drawing.Point(704, 320)
         Me.txttelefonoedit.Name = "txttelefonoedit"
         Me.txttelefonoedit.Size = New System.Drawing.Size(196, 20)
         Me.txttelefonoedit.TabIndex = 6
@@ -324,7 +326,7 @@ Partial Class editarempleado
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(589, 294)
+        Me.Label14.Location = New System.Drawing.Point(606, 323)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(49, 13)
         Me.Label14.TabIndex = 58
@@ -332,7 +334,7 @@ Partial Class editarempleado
         '
         'txttelefono
         '
-        Me.txttelefono.Location = New System.Drawing.Point(282, 291)
+        Me.txttelefono.Location = New System.Drawing.Point(299, 320)
         Me.txttelefono.Name = "txttelefono"
         Me.txttelefono.ReadOnly = True
         Me.txttelefono.Size = New System.Drawing.Size(196, 20)
@@ -341,7 +343,7 @@ Partial Class editarempleado
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(193, 294)
+        Me.Label15.Location = New System.Drawing.Point(210, 323)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(49, 13)
         Me.Label15.TabIndex = 57
@@ -349,7 +351,7 @@ Partial Class editarempleado
         '
         'txtemailperedit
         '
-        Me.txtemailperedit.Location = New System.Drawing.Point(687, 327)
+        Me.txtemailperedit.Location = New System.Drawing.Point(704, 356)
         Me.txtemailperedit.Name = "txtemailperedit"
         Me.txtemailperedit.Size = New System.Drawing.Size(196, 20)
         Me.txtemailperedit.TabIndex = 7
@@ -357,7 +359,7 @@ Partial Class editarempleado
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(589, 333)
+        Me.Label16.Location = New System.Drawing.Point(606, 362)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(75, 13)
         Me.Label16.TabIndex = 56
@@ -365,7 +367,7 @@ Partial Class editarempleado
         '
         'txtemailper
         '
-        Me.txtemailper.Location = New System.Drawing.Point(282, 330)
+        Me.txtemailper.Location = New System.Drawing.Point(299, 359)
         Me.txtemailper.Name = "txtemailper"
         Me.txtemailper.ReadOnly = True
         Me.txtemailper.Size = New System.Drawing.Size(196, 20)
@@ -374,7 +376,7 @@ Partial Class editarempleado
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(194, 334)
+        Me.Label17.Location = New System.Drawing.Point(211, 363)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(73, 13)
         Me.Label17.TabIndex = 55
@@ -383,7 +385,7 @@ Partial Class editarempleado
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(687, 447)
+        Me.ComboBox2.Location = New System.Drawing.Point(704, 476)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(196, 21)
         Me.ComboBox2.TabIndex = 10
@@ -391,7 +393,7 @@ Partial Class editarempleado
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(687, 402)
+        Me.ComboBox1.Location = New System.Drawing.Point(704, 431)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(196, 21)
         Me.ComboBox1.TabIndex = 9
@@ -405,12 +407,32 @@ Partial Class editarempleado
         Me.Button4.Text = "Eliminar"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Location = New System.Drawing.Point(717, 172)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(78, 13)
+        Me.Label18.TabIndex = 131
+        Me.Label18.Text = "Datos editados"
+        '
+        'Label19
+        '
+        Me.Label19.AutoSize = True
+        Me.Label19.Location = New System.Drawing.Point(332, 172)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(82, 13)
+        Me.Label19.TabIndex = 130
+        Me.Label19.Text = "Datos originales"
+        '
         'editarempleado
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
         Me.ClientSize = New System.Drawing.Size(1046, 638)
+        Me.Controls.Add(Me.Label18)
+        Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.ComboBox2)
@@ -501,4 +523,6 @@ Partial Class editarempleado
     Friend WithEvents ComboBox2 As ComboBox
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents Label18 As Label
+    Friend WithEvents Label19 As Label
 End Class

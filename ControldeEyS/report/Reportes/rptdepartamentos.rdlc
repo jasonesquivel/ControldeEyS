@@ -9,13 +9,10 @@
               <Width>6.27239cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>6.27239cm</Width>
+              <Width>7.11906cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>6.27239cm</Width>
-            </TablixColumn>
-            <TablixColumn>
-              <Width>4.93418cm</Width>
+              <Width>11.20657cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
@@ -39,36 +36,6 @@
                         </Paragraph>
                       </Paragraphs>
                       <rd:DefaultName>Textbox1</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>LightGrey</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
-                    <Textbox Name="Textbox3">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>estadodep</Value>
-                              <Style />
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>Textbox3</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>LightGrey</Color>
@@ -179,36 +146,6 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="estadodep">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>=Fields!estadodep.Value</Value>
-                              <Style />
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>estadodep</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>LightGrey</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
                     <Textbox Name="nombredep">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -276,7 +213,6 @@
             <TablixMember />
             <TablixMember />
             <TablixMember />
-            <TablixMember />
           </TablixMembers>
         </TablixColumnHierarchy>
         <TablixRowHierarchy>
@@ -292,7 +228,7 @@
         <DataSetName>DataSet1</DataSetName>
         <Top>0.07056cm</Top>
         <Height>1.62898cm</Height>
-        <Width>23.75135cm</Width>
+        <Width>24.59802cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -303,7 +239,7 @@
     <Height>0.69167in</Height>
     <Style />
   </Body>
-  <Width>9.35092in</Width>
+  <Width>9.68426in</Width>
   <Page>
     <PageHeader>
       <Height>2.32833cm</Height>

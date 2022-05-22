@@ -43,6 +43,8 @@ Partial Class editarcargo
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -75,7 +77,7 @@ Partial Class editarcargo
         '
         'Txtcargo
         '
-        Me.Txtcargo.Location = New System.Drawing.Point(144, 162)
+        Me.Txtcargo.Location = New System.Drawing.Point(153, 191)
         Me.Txtcargo.Name = "Txtcargo"
         Me.Txtcargo.ReadOnly = True
         Me.Txtcargo.Size = New System.Drawing.Size(196, 20)
@@ -83,7 +85,7 @@ Partial Class editarcargo
         '
         'Txtdescrpcion
         '
-        Me.Txtdescrpcion.Location = New System.Drawing.Point(144, 270)
+        Me.Txtdescrpcion.Location = New System.Drawing.Point(153, 299)
         Me.Txtdescrpcion.Multiline = True
         Me.Txtdescrpcion.Name = "Txtdescrpcion"
         Me.Txtdescrpcion.ReadOnly = True
@@ -100,7 +102,7 @@ Partial Class editarcargo
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(47, 272)
+        Me.Label3.Location = New System.Drawing.Point(56, 301)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(63, 13)
         Me.Label3.TabIndex = 11
@@ -109,7 +111,7 @@ Partial Class editarcargo
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(47, 165)
+        Me.Label2.Location = New System.Drawing.Point(56, 194)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(35, 13)
         Me.Label2.TabIndex = 10
@@ -135,14 +137,14 @@ Partial Class editarcargo
         '
         'txtnombrecargoedit
         '
-        Me.txtnombrecargoedit.Location = New System.Drawing.Point(470, 163)
+        Me.txtnombrecargoedit.Location = New System.Drawing.Point(479, 192)
         Me.txtnombrecargoedit.Name = "txtnombrecargoedit"
         Me.txtnombrecargoedit.Size = New System.Drawing.Size(196, 20)
         Me.txtnombrecargoedit.TabIndex = 2
         '
         'Texdescripcionedit
         '
-        Me.Texdescripcionedit.Location = New System.Drawing.Point(470, 272)
+        Me.Texdescripcionedit.Location = New System.Drawing.Point(479, 301)
         Me.Texdescripcionedit.Multiline = True
         Me.Texdescripcionedit.Name = "Texdescripcionedit"
         Me.Texdescripcionedit.Size = New System.Drawing.Size(196, 141)
@@ -151,7 +153,7 @@ Partial Class editarcargo
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(391, 270)
+        Me.Label4.Location = New System.Drawing.Point(400, 299)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(63, 13)
         Me.Label4.TabIndex = 20
@@ -160,7 +162,7 @@ Partial Class editarcargo
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(391, 163)
+        Me.Label5.Location = New System.Drawing.Point(400, 192)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(35, 13)
         Me.Label5.TabIndex = 19
@@ -178,7 +180,7 @@ Partial Class editarcargo
         '
         'txtiddepartamento
         '
-        Me.txtiddepartamento.Location = New System.Drawing.Point(144, 194)
+        Me.txtiddepartamento.Location = New System.Drawing.Point(153, 223)
         Me.txtiddepartamento.Name = "txtiddepartamento"
         Me.txtiddepartamento.ReadOnly = True
         Me.txtiddepartamento.Size = New System.Drawing.Size(196, 20)
@@ -187,7 +189,7 @@ Partial Class editarcargo
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(47, 201)
+        Me.Label6.Location = New System.Drawing.Point(56, 230)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(74, 13)
         Me.Label6.TabIndex = 24
@@ -196,7 +198,7 @@ Partial Class editarcargo
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(391, 201)
+        Me.Label7.Location = New System.Drawing.Point(400, 230)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(74, 13)
         Me.Label7.TabIndex = 26
@@ -214,10 +216,28 @@ Partial Class editarcargo
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(470, 198)
+        Me.ComboBox1.Location = New System.Drawing.Point(479, 227)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(196, 21)
         Me.ComboBox1.TabIndex = 3
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(548, 164)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(78, 13)
+        Me.Label9.TabIndex = 131
+        Me.Label9.Text = "Datos editados"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(163, 164)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(82, 13)
+        Me.Label8.TabIndex = 130
+        Me.Label8.Text = "Datos originales"
         '
         'editarcargo
         '
@@ -225,6 +245,8 @@ Partial Class editarcargo
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
         Me.ClientSize = New System.Drawing.Size(764, 508)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label7)
@@ -275,4 +297,6 @@ Partial Class editarcargo
     Friend WithEvents Label7 As Label
     Friend WithEvents Button4 As Button
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
 End Class
