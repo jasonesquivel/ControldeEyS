@@ -16,3 +16,6 @@ mover carpeta Reportes a C: para poder mostrar el report viewver
 
 **ubucacion de la carpeta reportes**
 \ControldeEyS\ControldeEyS\Reportes
+
+Restaurar base de datos ubicada en 
+**ControldeEyS/SQL DIAGRAMA Y BACKUOP/registroEyR.bak**
