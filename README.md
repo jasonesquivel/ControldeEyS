@@ -4,6 +4,6 @@ IDE Visual Studio.
 Programado en el lenguaje visual basic.
 Empleando método CRUD.
 CRUD en horario, departamento, puesto y empleado
-//////////////Login = usuario: admin y pass: 123///////////////
+/////////Login = usuario: admin y pass: 123///////////
 Base de datos con SQL Server 2019.
 Tablas relacionales.
