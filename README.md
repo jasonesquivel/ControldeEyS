@@ -10,7 +10,7 @@ Tablas relacionales.
 
 
 
-diseño de base de datos\ControldeEyS\ControldeEyS\reportes
+
 
 mover carpeta Reportes a C: para poder mostrar el report viewver 
 
