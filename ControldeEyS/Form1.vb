@@ -10,15 +10,27 @@ Public Class Form1
     Dim tblemp As New dsRegistroEyR.EmpleadoDataTable
     Dim Hor As New dsRegistroEyRTableAdapters.HorarioTableAdapter
     Dim tblhor As New dsRegistroEyR.HorarioDataTable
+    Dim empas As New dsRegistroEyRTableAdapters.DataTable4TableAdapter
+
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        llenarGrid()
 
-        Me.ReportViewer1.RefreshReport()
-        emp.Fill(tblemp)
-        Verme(tblemp, "DataSet1", "c:\Reportes\RptEmpleados.rdlc")
-        Me.ReportViewer1.RefreshReport()
+
+    End Sub
+    Sub llenarGrid()
+        Try
+
+
+            DataGridView1.DataSource = empas.GetData
+            DataGridView1.Refresh()
+
+            Panel3.Text = "Registros guardados: " & DataGridView1.Rows.Count.ToString
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
     End Sub
     Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
         LogIn.Close()
@@ -64,7 +76,7 @@ Public Class Form1
 
     Private Sub EditarEmpleadoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditarEmpleadoToolStripMenuItem.Click
         FrmEmpleados.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 
     Private Sub EditarDepartamentoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EditarDepartamentoToolStripMenuItem.Click
@@ -83,26 +95,10 @@ Public Class Form1
     End Sub
 
     Private Sub ReportViewer1_Load(sender As Object, e As EventArgs)
-        emp.Fill(tblemp)
-        Verme(tblemp, "DataSet1", "c:\Reportes\RptEmpleados.rdlc")
-        Me.ReportViewer1.RefreshReport()
-    End Sub
-
-    Sub Verme(ByVal tbl As DataTable, ByVal nombreDs As String, ByVal nombreRpt As String)
-        Try
-            Dim rpt As New ReportDataSource(nombreDs, tbl)
-            With Me
-                .ReportViewer1.LocalReport.DataSources.Clear()
-                .ReportViewer1.LocalReport.DataSources.Add(rpt)
-                .ReportViewer1.LocalReport.ReportPath = nombreRpt
-                .ReportViewer1.Refresh()
-
-            End With
-        Catch ex As Exception
-            MsgBox(ex.Message, MsgBoxStyle.Exclamation, "Error al mostrar reporte")
-        End Try
 
     End Sub
+
+
 
 
     Private Sub ReporteDeHorariosToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReporteDeHorariosToolStripMenuItem.Click
@@ -114,4 +110,6 @@ Public Class Form1
         emp.Fill(tblemp)
         VerReporte(tblemp, "DataSet1", "c:\Reportes\RptEmpleados.rdlc")
     End Sub
+
+
 End Class

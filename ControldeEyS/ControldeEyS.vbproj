@@ -195,6 +195,12 @@
     <Compile Include="report\dataset\Imprimir.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="report\frmasistencia.Designer.vb">
+      <DependentUpon>frmasistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="report\frmasistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="report\FrmEmpleados.Designer.vb">
       <DependentUpon>FrmEmpleados.vb</DependentUpon>
     </Compile>
@@ -259,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="report\dataset\Imprimir.resx">
       <DependentUpon>Imprimir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\frmasistencia.resx">
+      <DependentUpon>frmasistencia.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="report\FrmHorarios.resx">
       <DependentUpon>FrmHorarios.vb</DependentUpon>
