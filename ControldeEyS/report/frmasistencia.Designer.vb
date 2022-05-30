@@ -228,10 +228,9 @@ Partial Class frmasistencia
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmasistencia"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Asistencia"
+        Me.Text = "frmasistencia"
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.dgvRegistros, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
