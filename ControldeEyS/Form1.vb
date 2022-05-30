@@ -131,11 +131,4 @@ Public Class Form1
             MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
         End Try
     End Sub
-
-    Private Sub ToolStripMenuItem7_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem7.Click
-        Rptcorrecciones.Show()
-        Me.Close()
-
-    End Sub
-
 End Class

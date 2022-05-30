@@ -282,16 +282,6 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:ControldeEyS.dsRegistroEyR.CorreccionhorarioDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:ControldeEyS.dsRegistroEyR.buscarporidDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
 <member name="T:ControldeEyS.dsRegistroEyR.DepartamentoRow">
 <summary>
 Represents strongly named DataRow class.
@@ -358,16 +348,6 @@ Represents strongly named DataRow class.
 </summary>
 </member>
 <member name="T:ControldeEyS.dsRegistroEyR.RptEmpleadosRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:ControldeEyS.dsRegistroEyR.CorreccionhorarioRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:ControldeEyS.dsRegistroEyR.buscarporidRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -442,16 +422,6 @@ Row event argument class
 Row event argument class
 </summary>
 </member>
-<member name="T:ControldeEyS.dsRegistroEyR.CorreccionhorarioRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:ControldeEyS.dsRegistroEyR.buscarporidRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
 <member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DepartamentoTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
@@ -518,16 +488,6 @@ Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 <member name="T:ControldeEyS.dsRegistroEyRTableAdapters.RptEmpleadosTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member>
-<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.CorreccionhorarioTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member>
-<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.buscarporidTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
