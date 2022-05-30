@@ -44,7 +44,7 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim response
-        response = MsgBox("Si presiona Ok usted se saldra sin guardar",
+        response = MsgBox("Si no ha Presionado el boton guardar se saldra sin guardar",
                      MsgBoxStyle.OkCancel, "Advertencia")
         If response = vbOK Then
             Me.Close()    ' Perform some action.
@@ -52,7 +52,19 @@
     End Sub
 
     Private Sub Txtid_TextChanged(sender As Object, e As EventArgs) Handles Txtidcargo.TextChanged
+        Try
+            Dim idpues As Integer = CInt(Txtidcargo.Text.Trim)
+            pues.BuscarPorId(idpues)
+            Txtcargo.Text = pues.BuscarPorId(idpues).Rows(0).Item(1)
+            txtnombrecargoedit.Text = pues.BuscarPorId(idpues).Rows(0).Item(1)
+            txtiddepartamento.Text = pues.BuscarPorId(idpues).Rows(0).Item(4)
+            ComboBox1.Text = pues.BuscarPorId(idpues).Rows(0).Item(4)
+            Txtdescrpcion.Text = pues.BuscarPorId(idpues).Rows(0).Item(2)
+            Texdescripcionedit.Text = pues.BuscarPorId(idpues).Rows(0).Item(2)
 
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub Txtid_KeyPress(sender As Object, e As KeyPressEventArgs) Handles Txtidcargo.KeyPress
@@ -80,7 +92,7 @@
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) 
         Try
             Dim idpues As Integer = CInt(Txtidcargo.Text.Trim)
             pues.BuscarPorId(idpues)
@@ -99,7 +111,7 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Try
             Dim resp As VariantType
-            resp = (MsgBox("Desea eliminar el registro?", vbQuestion + vbYesNo, "Eliminar"))
+            resp = (MsgBox("Desea eliminar el registro?, se eliminaran todos los datos que estaban dentro", vbQuestion + vbYesNo, "Eliminar"))
             If (resp = vbYes) Then
                 Dim idpues As Integer = CInt(Txtidcargo.Text.Trim)
                 pues.EliminarRegistro(idpues)

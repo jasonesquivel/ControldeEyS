@@ -57,7 +57,7 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim response
-        response = MsgBox("Si presiona Ok usted se saldra sin guardar",
+        response = MsgBox("Si no ha Presionado el boton guardar se saldra sin guardar",
                      MsgBoxStyle.OkCancel, "Advertencia")
         If response = vbOK Then
             Me.Close()    ' Perform some action.
@@ -84,7 +84,7 @@
         solonumeros(e)
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) 
         Try
             Dim idemp As Integer = CInt(Txtidemp.Text.Trim)
             emp.BuscarporID(idemp)
@@ -118,7 +118,7 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Try
             Dim resp As VariantType
-            resp = (MsgBox("Desea eliminar el registro?", vbQuestion + vbYesNo, "Eliminar"))
+            resp = (MsgBox("Desea eliminar el registro?, se eliminaran todos los datos que estaban dentro", vbQuestion + vbYesNo, "Eliminar"))
             If (resp = vbYes) Then
                 Dim idemp As Integer = CInt(Txtidemp.Text.Trim)
                 emp.EliminarRegistro(idemp)
@@ -130,6 +130,31 @@
         Catch ex As Exception
 
             MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+    Private Sub Txtidemp_TextChanged(sender As Object, e As EventArgs) Handles Txtidemp.TextChanged
+        Try
+            Dim idemp As Integer = CInt(Txtidemp.Text.Trim)
+            emp.BuscarporID(idemp)
+            txtnombre.Text = emp.BuscarporID(idemp).Rows(0).Item(1)
+            txtnombreedit.Text = emp.BuscarporID(idemp).Rows(0).Item(1)
+            txtapellido.Text = emp.BuscarporID(idemp).Rows(0).Item(2)
+            txtapellidoedit.Text = emp.BuscarporID(idemp).Rows(0).Item(2)
+            txtdireccion.Text = emp.BuscarporID(idemp).Rows(0).Item(3)
+            txtdireccionedit.Text = emp.BuscarporID(idemp).Rows(0).Item(3)
+            txttelefono.Text = emp.BuscarporID(idemp).Rows(0).Item(4)
+            txttelefonoedit.Text = emp.BuscarporID(idemp).Rows(0).Item(4)
+            txtemailper.Text = emp.BuscarporID(idemp).Rows(0).Item(5)
+            txtemailperedit.Text = emp.BuscarporID(idemp).Rows(0).Item(5)
+            txtemaillab.Text = emp.BuscarporID(idemp).Rows(0).Item(6)
+            txtemaillabedit.Text = emp.BuscarporID(idemp).Rows(0).Item(6)
+            txtidhorario.Text = emp.BuscarporID(idemp).Rows(0).Item(9)
+            ComboBox1.Text = emp.BuscarporID(idemp).Rows(0).Item(9)
+            txtidpuesto.Text = emp.BuscarporID(idemp).Rows(0).Item(10)
+            ComboBox2.Text = emp.BuscarporID(idemp).Rows(0).Item(10)
+        Catch ex As Exception
+
         End Try
     End Sub
 End Class
