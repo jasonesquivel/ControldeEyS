@@ -6,6 +6,7 @@
     Dim tblpues As New dsRegistroEyR.PuestoDataTable
     Dim Hor As New dsRegistroEyRTableAdapters.HorarioTableAdapter
     Dim tblhor As New dsRegistroEyR.HorarioDataTable
+    Dim regis As New dsRegistroEyRTableAdapters.RegistrodeEyRTableAdapter
 
     Private Sub agregarempleado_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pues.Fill(tblpues)
@@ -20,7 +21,7 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim response
-        response = MsgBox("Si presiona Ok usted se saldra sin guardar",
+        response = MsgBox("Si no ha Presionado el boton guardar se saldra sin guardar",
                      MsgBoxStyle.OkCancel, "Advertencia")
         If response = vbOK Then
             Me.Close()    ' Perform some action.
@@ -37,6 +38,9 @@
             Exit Sub
         End If
         Try
+
+            Dim horaactual As String = DateTime.Now
+            Dim inicializando As String = "inicializandoempleado"
             Dim nombre As String = txtnombreagregar.Text.Trim
             Dim apellido As String = txtapellidoagregar.Text.Trim
             Dim direccion As String = txtdireccion.Text.Trim
@@ -47,6 +51,7 @@
             Dim idpuesto As String = ComboBox2.SelectedValue
             Dim idemp As Integer = CInt(txtidagregar.Text.Trim)
             emp.insertarid(idemp, nombre, apellido, direccion, telefono, emailper, emaillab, idhorario, idpuesto)
+            regis.insertarregistro(horaactual, inicializando, idemp)
 
             MsgBox("Se Ha guardado con exito", MsgBoxStyle.Information, "Departamento editado")
             limpiarcampos(Me)

@@ -4,7 +4,7 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim response
-        response = MsgBox("Si presiona Ok usted se saldra sin guardar",
+        response = MsgBox("Si no ha Presionado el boton guardar se saldra sin guardar",
                      MsgBoxStyle.OkCancel, "Advertencia")
         If response = vbOK Then
             Me.Close()    ' Perform some action.
@@ -19,10 +19,10 @@
             Exit Sub
         End If
         Try
-            Dim iddepartamento As Integer = CInt(txtiddepagregar.Text.Trim)
+
             Dim nombre As String = txtnombredepagregar.Text.Trim
             Dim descripcion As String = Texdescripcionagregar.Text.Trim
-            depa.insertarconid(nombre, descripcion, iddepartamento)
+            depa.insertarconid(nombre, descripcion)
             MsgBox("Se ha guardado con exito", MsgBoxStyle.Information, "Guardado")
             limpiarcampos(Me)
         Catch ex As Exception
@@ -53,6 +53,10 @@
 
 
         End If
+
+    End Sub
+
+    Private Sub agregardepartamento_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

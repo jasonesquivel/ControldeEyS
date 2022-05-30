@@ -55,7 +55,9 @@ Partial Class Form1
         Me.ReporteDeAsistenciaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReporteDeHorariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.ReportesDeEntradaYSalidaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.DsregistroBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,10 +66,13 @@ Partial Class Form1
         Me.MenuStrip3.SuspendLayout()
         Me.MenuStrip2.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
+        Me.Panel3.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(200, 9)
@@ -84,6 +89,8 @@ Partial Class Form1
         '
         'Panel1
         '
+        Me.Panel1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.MidnightBlue
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.MenuStrip6)
@@ -93,15 +100,16 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.MenuStrip1)
         Me.Panel1.Location = New System.Drawing.Point(0, -1)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(151, 519)
+        Me.Panel1.Size = New System.Drawing.Size(151, 530)
         Me.Panel1.TabIndex = 5
         '
         'PictureBox1
         '
+        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(22, 407)
+        Me.PictureBox1.Location = New System.Drawing.Point(22, 425)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(100, 99)
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 85)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 6
         Me.PictureBox1.TabStop = False
@@ -152,7 +160,7 @@ Partial Class Form1
         Me.ToolStripMenuItem7.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ToolStripMenuItem7.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem8, Me.ToolStripMenuItem9, Me.ToolStripMenuItem10})
         Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(180, 24)
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(136, 24)
         Me.ToolStripMenuItem7.Text = "Corregir "
         '
         'ToolStripMenuItem8
@@ -197,25 +205,25 @@ Partial Class Form1
         'EditarEmpleadoToolStripMenuItem
         '
         Me.EditarEmpleadoToolStripMenuItem.Name = "EditarEmpleadoToolStripMenuItem"
-        Me.EditarEmpleadoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.EditarEmpleadoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.EditarEmpleadoToolStripMenuItem.Text = "Empleado"
         '
         'EditarCargoToolStripMenuItem
         '
         Me.EditarCargoToolStripMenuItem.Name = "EditarCargoToolStripMenuItem"
-        Me.EditarCargoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.EditarCargoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.EditarCargoToolStripMenuItem.Text = "Cargo"
         '
         'EditarDepartamentoToolStripMenuItem
         '
         Me.EditarDepartamentoToolStripMenuItem.Name = "EditarDepartamentoToolStripMenuItem"
-        Me.EditarDepartamentoToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.EditarDepartamentoToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.EditarDepartamentoToolStripMenuItem.Text = "Departamento"
         '
         'HorarioToolStripMenuItem
         '
         Me.HorarioToolStripMenuItem.Name = "HorarioToolStripMenuItem"
-        Me.HorarioToolStripMenuItem.Size = New System.Drawing.Size(180, 24)
+        Me.HorarioToolStripMenuItem.Size = New System.Drawing.Size(175, 24)
         Me.HorarioToolStripMenuItem.Text = "Horario"
         '
         'MenuStrip2
@@ -267,7 +275,7 @@ Partial Class Form1
         '
         'ToolStripMenuItem1
         '
-        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReporteDeDepartamentosToolStripMenuItem, Me.ReporteDeCaegoToolStripMenuItem, Me.ReporteDeAsistenciaToolStripMenuItem, Me.ReporteDeHorariosToolStripMenuItem})
+        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReporteDeDepartamentosToolStripMenuItem, Me.ReporteDeCaegoToolStripMenuItem, Me.ReporteDeAsistenciaToolStripMenuItem, Me.ReporteDeHorariosToolStripMenuItem, Me.ReportesDeEntradaYSalidaToolStripMenuItem})
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(80, 24)
         Me.ToolStripMenuItem1.Text = "Reportes"
@@ -275,53 +283,77 @@ Partial Class Form1
         'ReporteDeDepartamentosToolStripMenuItem
         '
         Me.ReporteDeDepartamentosToolStripMenuItem.Name = "ReporteDeDepartamentosToolStripMenuItem"
-        Me.ReporteDeDepartamentosToolStripMenuItem.Size = New System.Drawing.Size(257, 24)
+        Me.ReporteDeDepartamentosToolStripMenuItem.Size = New System.Drawing.Size(269, 24)
         Me.ReporteDeDepartamentosToolStripMenuItem.Text = "Reporte de departamentos"
         '
         'ReporteDeCaegoToolStripMenuItem
         '
         Me.ReporteDeCaegoToolStripMenuItem.Name = "ReporteDeCaegoToolStripMenuItem"
-        Me.ReporteDeCaegoToolStripMenuItem.Size = New System.Drawing.Size(257, 24)
+        Me.ReporteDeCaegoToolStripMenuItem.Size = New System.Drawing.Size(269, 24)
         Me.ReporteDeCaegoToolStripMenuItem.Text = "Reporte de cargos"
         '
         'ReporteDeAsistenciaToolStripMenuItem
         '
         Me.ReporteDeAsistenciaToolStripMenuItem.Name = "ReporteDeAsistenciaToolStripMenuItem"
-        Me.ReporteDeAsistenciaToolStripMenuItem.Size = New System.Drawing.Size(257, 24)
+        Me.ReporteDeAsistenciaToolStripMenuItem.Size = New System.Drawing.Size(269, 24)
         Me.ReporteDeAsistenciaToolStripMenuItem.Text = "Reporte de Empleados"
         '
         'ReporteDeHorariosToolStripMenuItem
         '
         Me.ReporteDeHorariosToolStripMenuItem.Name = "ReporteDeHorariosToolStripMenuItem"
-        Me.ReporteDeHorariosToolStripMenuItem.Size = New System.Drawing.Size(257, 24)
+        Me.ReporteDeHorariosToolStripMenuItem.Size = New System.Drawing.Size(269, 24)
         Me.ReporteDeHorariosToolStripMenuItem.Text = "Reporte de Horarios"
         '
         'Panel2
         '
+        Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel2.BackColor = System.Drawing.Color.Magenta
         Me.Panel2.Location = New System.Drawing.Point(146, -1)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(10, 519)
+        Me.Panel2.Size = New System.Drawing.Size(10, 527)
         Me.Panel2.TabIndex = 6
         '
-        'ReportViewer1
+        'Panel3
         '
-        Me.ReportViewer1.Location = New System.Drawing.Point(157, 27)
-        Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.ServerReport.BearerToken = Nothing
-        Me.ReportViewer1.Size = New System.Drawing.Size(948, 491)
-        Me.ReportViewer1.TabIndex = 7
+        Me.Panel3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
+        Me.Panel3.Controls.Add(Me.DataGridView1)
+        Me.Panel3.Location = New System.Drawing.Point(172, 41)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(753, 458)
+        Me.Panel3.TabIndex = 7
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 51
+        Me.DataGridView1.RowTemplate.Height = 24
+        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridView1.Size = New System.Drawing.Size(753, 458)
+        Me.DataGridView1.TabIndex = 0
+        '
+        'ReportesDeEntradaYSalidaToolStripMenuItem
+        '
+        Me.ReportesDeEntradaYSalidaToolStripMenuItem.Name = "ReportesDeEntradaYSalidaToolStripMenuItem"
+        Me.ReportesDeEntradaYSalidaToolStripMenuItem.Size = New System.Drawing.Size(269, 24)
+        Me.ReportesDeEntradaYSalidaToolStripMenuItem.Text = "Reportes de Entrada y Salida"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.ClientSize = New System.Drawing.Size(1104, 517)
-        Me.Controls.Add(Me.ReportViewer1)
+        Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
+        Me.ClientSize = New System.Drawing.Size(957, 521)
         Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.Panel3)
+        Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -340,6 +372,8 @@ Partial Class Form1
         Me.MenuStrip2.PerformLayout()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.Panel3.ResumeLayout(False)
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -375,6 +409,8 @@ Partial Class Form1
     Friend WithEvents ToolStripMenuItem9 As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem10 As ToolStripMenuItem
     Friend WithEvents HorarioToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents ReporteDeHorariosToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Panel3 As Panel
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents ReportesDeEntradaYSalidaToolStripMenuItem As ToolStripMenuItem
 End Class

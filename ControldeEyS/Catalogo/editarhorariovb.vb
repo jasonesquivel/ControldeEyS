@@ -7,7 +7,7 @@
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         Try
             Dim idhor As Integer = CInt(Txtidhorario.Text.Trim)
             'Dim descripcion As String = Texdescripcionedit.Text.Trim
@@ -78,7 +78,35 @@
             End If
         Catch ex As Exception
 
-            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+            MsgBox("No se puede borrar este Registro, ya que algunos empleados aun siguen bajo este horario", MsgBoxStyle.Critical, "Error")
         End Try
+    End Sub
+
+    Private Sub Txtidhorario_TextChanged(sender As Object, e As EventArgs) Handles Txtidhorario.TextChanged
+        Try
+            Dim idhor As Integer = CInt(Txtidhorario.Text.Trim)
+            'Dim descripcion As String = Texdescripcionedit.Text.Trim
+            'Dim horaentrada As TimeSpan = TimeSpan.Parse(txthoradeentradaedit.Text)
+            'Dim horasalida As TimeSpan = TimeSpan.Parse(txtshoradealidaedit.Text)
+            Hor.GetDataBy2(idhor)
+            Txtdescripcion.Text = Hor.GetDataBy2(idhor).Rows(0).Item(1)
+            Texdescripcionedit.Text = Hor.GetDataBy2(idhor).Rows(0).Item(1)
+            txtentrada.Text = (Hor.GetDataBy2(idhor).Rows(0).Item(2)).ToString
+            txthoradeentradaedit.Text = Hor.GetDataBy2(idhor).Rows(0).Item(2).ToString
+            Txtsalida.Text = Hor.GetDataBy2(idhor).Rows(0).Item(3).ToString
+            txtshoradealidaedit.Text = Hor.GetDataBy2(idhor).Rows(0).Item(3).ToString
+
+        Catch ex As Exception
+
+        End Try
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim response
+        response = MsgBox("Si no ha Presionado el boton guardar se saldra sin guardar",
+                     MsgBoxStyle.OkCancel, "Advertencia")
+        If response = vbOK Then
+            Me.Close()    ' Perform some action.
+        End If
     End Sub
 End Class

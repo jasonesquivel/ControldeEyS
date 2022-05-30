@@ -15,7 +15,7 @@ Public Class agregarcargo
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim response
-        response = MsgBox("Si presiona Ok usted se saldra sin guardar",
+        response = MsgBox("Si no ha Presionado el boton guardar se saldra sin guardar",
                      MsgBoxStyle.OkCancel, "Advertencia")
         If response = vbOK Then
             Me.Close()    ' Perform some action.
@@ -29,11 +29,11 @@ Public Class agregarcargo
             Exit Sub
         End If
         Try
-            Dim idpuesto As Integer = CInt(Txtidcargoagregar.Text.Trim)
+
             Dim nombre As String = Txtnombrecargoagregar.Text.Trim
             Dim descripcion As String = Txtdescripcionagregar.Text.Trim
             Dim iddepartamento As Integer = ComboBox1.SelectedValue
-            pues.insertarconid(idpuesto, nombre, descripcion, iddepartamento)
+            pues.insertarconid(nombre, descripcion, iddepartamento)
             MsgBox("Se ha guardado con exito", MsgBoxStyle.Information, "Guardado")
             limpiarcampos(Me)
         Catch ex As Exception
