@@ -70,4 +70,11 @@
     Private Sub Txtcontraseña_TextChanged(sender As Object, e As EventArgs) Handles Txtcontraseña.TextChanged
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+
+        frmasistencia.Show()
+
+    End Sub
 End Class

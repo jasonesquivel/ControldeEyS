@@ -195,6 +195,12 @@
     <Compile Include="report\dataset\Imprimir.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="report\frmasistencia.Designer.vb">
+      <DependentUpon>frmasistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="report\frmasistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="report\FrmEmpleados.Designer.vb">
       <DependentUpon>FrmEmpleados.vb</DependentUpon>
     </Compile>
@@ -217,6 +223,12 @@
       <DependentUpon>FrmHorarios.vb</DependentUpon>
     </Compile>
     <Compile Include="report\FrmHorarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\Rptcorrecciones.Designer.vb">
+      <DependentUpon>Rptcorrecciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="report\Rptcorrecciones.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -260,9 +272,15 @@
     <EmbeddedResource Include="report\dataset\Imprimir.resx">
       <DependentUpon>Imprimir.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="report\frmasistencia.resx">
+      <DependentUpon>frmasistencia.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="report\FrmHorarios.resx">
       <DependentUpon>FrmHorarios.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="report\Reportes\NewRptCargos.rdlc" />
+    <EmbeddedResource Include="report\Reportes\NewRptEmpleados.rdlc" />
+    <EmbeddedResource Include="report\Reportes\RegistroEntradaYsalida.rdlc" />
     <EmbeddedResource Include="report\Reportes\rptCargos.rdlc" />
     <EmbeddedResource Include="report\Reportes\rptdepartamentos.rdlc" />
     <EmbeddedResource Include="report\FrmEmpleados.resx">
@@ -276,6 +294,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="report\Reportes\RptEmpleados.rdlc" />
     <EmbeddedResource Include="report\Reportes\rptHorario.rdlc" />
+    <EmbeddedResource Include="report\Rptcorrecciones.resx">
+      <DependentUpon>Rptcorrecciones.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\app.manifest" />

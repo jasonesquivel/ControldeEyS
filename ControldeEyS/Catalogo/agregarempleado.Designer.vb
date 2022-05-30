@@ -145,11 +145,11 @@ Partial Class agregarempleado
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(200, 542)
+        Me.Button2.Location = New System.Drawing.Point(237, 542)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 11
-        Me.Button2.Text = "Cancelar"
+        Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
@@ -190,7 +190,7 @@ Partial Class agregarempleado
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(57, 446)
+        Me.Label2.Location = New System.Drawing.Point(57, 396)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(41, 13)
         Me.Label2.TabIndex = 73
@@ -199,7 +199,7 @@ Partial Class agregarempleado
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(57, 401)
+        Me.Label3.Location = New System.Drawing.Point(57, 440)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(40, 13)
         Me.Label3.TabIndex = 74
@@ -249,6 +249,7 @@ Partial Class agregarempleado
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "agregarempleado"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Agregar  Empleado"
