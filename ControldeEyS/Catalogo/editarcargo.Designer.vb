@@ -32,7 +32,6 @@ Partial Class editarcargo
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.txtnombrecargoedit = New System.Windows.Forms.TextBox()
         Me.Texdescripcionedit = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -54,7 +53,7 @@ Partial Class editarcargo
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Cancelar"
+        Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
@@ -98,6 +97,7 @@ Partial Class editarcargo
         Me.Txtidcargo.Name = "Txtidcargo"
         Me.Txtidcargo.Size = New System.Drawing.Size(196, 20)
         Me.Txtidcargo.TabIndex = 0
+        Me.Txtidcargo.Visible = False
         '
         'Label3
         '
@@ -125,15 +125,7 @@ Partial Class editarcargo
         Me.Label1.Size = New System.Drawing.Size(18, 13)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "ID"
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(600, 127)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 1
-        Me.Button3.Text = "Buscar"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Label1.Visible = False
         '
         'txtnombrecargoedit
         '
@@ -257,7 +249,6 @@ Partial Class editarcargo
         Me.Controls.Add(Me.Texdescripcionedit)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ToolStrip1)
@@ -268,6 +259,7 @@ Partial Class editarcargo
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "editarcargo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "  Editar Cargo"
@@ -286,7 +278,6 @@ Partial Class editarcargo
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button3 As Button
     Friend WithEvents txtnombrecargoedit As TextBox
     Friend WithEvents Texdescripcionedit As TextBox
     Friend WithEvents Label4 As Label
