@@ -252,6 +252,61 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable3DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable4DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistroEntradaYsalidaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RptCargosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RptEmpleadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.CorreccionhorarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.buscarporidDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.AsignarloginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.pruebaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistrodecuentascreadasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:ControldeEyS.dsRegistroEyR.DepartamentoRow">
 <summary>
 Represents strongly named DataRow class.
@@ -288,6 +343,61 @@ Represents strongly named DataRow class.
 </summary>
 </member>
 <member name="T:ControldeEyS.dsRegistroEyR.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable3Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable4Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistroEntradaYsalidaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RptCargosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RptEmpleadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.CorreccionhorarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.buscarporidRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.AsignarloginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.pruebaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistrodecuentascreadasRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -332,6 +442,61 @@ Row event argument class
 Row event argument class
 </summary>
 </member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable3RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.DataTable4RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistroEntradaYsalidaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RptCargosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RptEmpleadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.CorreccionhorarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.buscarporidRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.AsignarloginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.pruebaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyR.RegistrodecuentascreadasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
 <member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DepartamentoTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
@@ -368,6 +533,61 @@ Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 <member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DataTable2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DataTable3TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.DataTable4TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.RegistroEntradaYsalidaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.RptCargosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.RptEmpleadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.CorreccionhorarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.buscarporidTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.AsignarloginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.pruebaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ControldeEyS.dsRegistroEyRTableAdapters.RegistrodecuentascreadasTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

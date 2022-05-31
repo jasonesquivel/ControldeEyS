@@ -42,16 +42,17 @@ Partial Class agregarcargo
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(0, 171)
+        Me.Label1.Location = New System.Drawing.Point(0, 134)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(18, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "ID"
+        Me.Label1.Visible = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(0, 210)
+        Me.Label2.Location = New System.Drawing.Point(0, 186)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(35, 13)
         Me.Label2.TabIndex = 1
@@ -60,7 +61,7 @@ Partial Class agregarcargo
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(0, 281)
+        Me.Label3.Location = New System.Drawing.Point(0, 258)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(63, 13)
         Me.Label3.TabIndex = 2
@@ -68,7 +69,7 @@ Partial Class agregarcargo
         '
         'Txtdescripcionagregar
         '
-        Me.Txtdescripcionagregar.Location = New System.Drawing.Point(91, 281)
+        Me.Txtdescripcionagregar.Location = New System.Drawing.Point(91, 258)
         Me.Txtdescripcionagregar.Multiline = True
         Me.Txtdescripcionagregar.Name = "Txtdescripcionagregar"
         Me.Txtdescripcionagregar.Size = New System.Drawing.Size(196, 141)
@@ -76,17 +77,18 @@ Partial Class agregarcargo
         '
         'Txtnombrecargoagregar
         '
-        Me.Txtnombrecargoagregar.Location = New System.Drawing.Point(91, 206)
+        Me.Txtnombrecargoagregar.Location = New System.Drawing.Point(91, 183)
         Me.Txtnombrecargoagregar.Name = "Txtnombrecargoagregar"
         Me.Txtnombrecargoagregar.Size = New System.Drawing.Size(196, 20)
         Me.Txtnombrecargoagregar.TabIndex = 2
         '
         'Txtidcargoagregar
         '
-        Me.Txtidcargoagregar.Location = New System.Drawing.Point(91, 168)
+        Me.Txtidcargoagregar.Location = New System.Drawing.Point(91, 132)
         Me.Txtidcargoagregar.Name = "Txtidcargoagregar"
         Me.Txtidcargoagregar.Size = New System.Drawing.Size(196, 20)
         Me.Txtidcargoagregar.TabIndex = 1
+        Me.Txtidcargoagregar.Visible = False
         '
         'ToolStrip1
         '
@@ -99,7 +101,7 @@ Partial Class agregarcargo
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(62, 475)
+        Me.Button1.Location = New System.Drawing.Point(91, 452)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 5
@@ -108,11 +110,11 @@ Partial Class agregarcargo
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(173, 475)
+        Me.Button2.Location = New System.Drawing.Point(211, 452)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 6
-        Me.Button2.Text = "Cancelar"
+        Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'BackgroundWorker1
@@ -131,7 +133,7 @@ Partial Class agregarcargo
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(0, 241)
+        Me.Label4.Location = New System.Drawing.Point(0, 218)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(74, 13)
         Me.Label4.TabIndex = 10
@@ -140,7 +142,7 @@ Partial Class agregarcargo
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(91, 238)
+        Me.ComboBox1.Location = New System.Drawing.Point(91, 214)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(196, 21)
         Me.ComboBox1.TabIndex = 3
@@ -164,6 +166,7 @@ Partial Class agregarcargo
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "agregarcargo"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Agregar cargo"

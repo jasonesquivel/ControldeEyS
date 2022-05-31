@@ -2,27 +2,38 @@
 
     Private user As String = "admin"
     Public pw As String = "123"
+    Dim log As New dsRegistroEyRTableAdapters.LogInTableAdapter
 
     Private Sub btnaceptar_Click(sender As Object, e As EventArgs) Handles btnaceptar.Click
         evaluaruser()
 
 
 
+
+
     End Sub
 
 
+
     Sub evaluaruser()
-        If (Txtusuario.Text.Equals(user) And Txtcontraseña.Text.Equals(pw)) Then
-            Me.Hide()
-            Form1.Show()
+        Try
 
-            Txtusuario.Text = ""
-            Txtcontraseña.Text = ""
+            Dim usuario As String = Txtusuario.Text.Trim
+            Dim contra As String = Txtcontraseña.Text.Trim
+            If log.inicio(usuario, contra) > 0 Then
+                Me.Hide()
+                Form1.Show()
+                Txtusuario.Text = ""
+                Txtcontraseña.Text = ""
+            ElseIf MessageBox.Show("Contraseña o usuario equivocado", "Error en contraseña") Then
+                Txtcontraseña.Text = ""
+            End If
 
-        ElseIf MessageBox.Show("Contraseña o usuario equivocado", "Error en contraseña") Then
-            Txtcontraseña.Text = ""
 
-        End If
+
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
 
     End Sub
 
@@ -68,6 +79,13 @@
     End Sub
 
     Private Sub Txtcontraseña_TextChanged(sender As Object, e As EventArgs) Handles Txtcontraseña.TextChanged
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+
+        frmasistencia.Show()
 
     End Sub
 End Class

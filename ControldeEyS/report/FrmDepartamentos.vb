@@ -21,6 +21,7 @@ Public Class FrmDepartamentos
         dgv.Refresh()
         'ocultar columna
         'DgvRegistros.Columns().Item().Visible = False
+        dgv.Columns().Item(0).Visible = False
         GroupBox1.Text = "Registros guardados: " & dgv.Rows.Count.ToString
     End Sub
 
@@ -31,7 +32,7 @@ Public Class FrmDepartamentos
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) 
 
         editardep.Show()
 
@@ -61,4 +62,28 @@ Public Class FrmDepartamentos
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         llenarGrid()
     End Sub
+
+    Private Sub dgv_DoubleClick(sender As Object, e As EventArgs) Handles dgv.DoubleClick
+        Dim id As Integer
+        Dim fila As Integer = dgv.CurrentRow.Index
+        id = dgv.Item(0, fila).Value
+        editardep.Txtiddep.Text = id
+
+        editardep.Show()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Try
+            Dim dato As String = Txtdato.Text
+            dgv.DataSource = depa.Buscarpornombre(dato)
+
+            dgv.Refresh()
+
+            GroupBox1.Text = "Registros encontrados: " & dgv.Rows.Count.ToString
+        Catch ex As Exception
+            MsgBox(ex.Message, MsgBoxStyle.Critical, "Error")
+        End Try
+    End Sub
+
+
 End Class
