@@ -558,3 +558,14 @@ C:\Users\kwzz1\Desktop\5 bk de la ultima entrega\ControldeEyS\ControldeEyS\obj\D
 C:\Users\kwzz1\Desktop\5 bk de la ultima entrega\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.crearlogin.resources
 C:\Users\kwzz1\Desktop\5 bk de la ultima entrega\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.asignarlogin.resources
 C:\Users\kwzz1\Desktop\5 bk de la ultima entrega\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.frmregistrodecuentas.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\bin\Debug\Microsoft.MSXML.dll
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.crearlogin.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.asignarlogin.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.frmasistencia.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.frmregistrodecuentas.resources
+C:\Users\kwzz1\Desktop\diseño de base de datos\ControldeEyS\ControldeEyS\obj\Debug\ControldeEyS.Rptcorrecciones.resources
