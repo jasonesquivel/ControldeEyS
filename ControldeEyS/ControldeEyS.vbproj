@@ -110,6 +110,12 @@
     <Compile Include="Catalogo\agregarhorario.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Catalogo\crearlogin.Designer.vb">
+      <DependentUpon>crearlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\crearlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Catalogo\editarcargo.Designer.vb">
       <DependentUpon>editarcargo.vb</DependentUpon>
     </Compile>
@@ -181,6 +187,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>registroEyRpruebaDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="report\asignarlogin.Designer.vb">
+      <DependentUpon>asignarlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="report\asignarlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="report\dataset\dsRegistroEyR.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -193,6 +205,12 @@
       <DependentUpon>Imprimir.vb</DependentUpon>
     </Compile>
     <Compile Include="report\dataset\Imprimir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\frmasistencia.Designer.vb">
+      <DependentUpon>frmasistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="report\frmasistencia.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="report\FrmEmpleados.Designer.vb">
@@ -219,6 +237,18 @@
     <Compile Include="report\FrmHorarios.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="report\frmregistrodecuentas.Designer.vb">
+      <DependentUpon>frmregistrodecuentas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="report\frmregistrodecuentas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report\Rptcorrecciones.Designer.vb">
+      <DependentUpon>Rptcorrecciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="report\Rptcorrecciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Catalogo\agregardepartamento.resx">
@@ -229,6 +259,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogo\agregarhorario.resx">
       <DependentUpon>agregarhorario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\crearlogin.resx">
+      <DependentUpon>crearlogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogo\editarcargo.resx">
       <DependentUpon>editarcargo.vb</DependentUpon>
@@ -257,12 +290,24 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="report\asignarlogin.resx">
+      <DependentUpon>asignarlogin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="report\dataset\Imprimir.resx">
       <DependentUpon>Imprimir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\frmasistencia.resx">
+      <DependentUpon>frmasistencia.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="report\FrmHorarios.resx">
       <DependentUpon>FrmHorarios.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="report\frmregistrodecuentas.resx">
+      <DependentUpon>frmregistrodecuentas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\Reportes\NewRptCargos.rdlc" />
+    <EmbeddedResource Include="report\Reportes\NewRptEmpleados.rdlc" />
+    <EmbeddedResource Include="report\Reportes\RegistroEntradaYsalida.rdlc" />
     <EmbeddedResource Include="report\Reportes\rptCargos.rdlc" />
     <EmbeddedResource Include="report\Reportes\rptdepartamentos.rdlc" />
     <EmbeddedResource Include="report\FrmEmpleados.resx">
@@ -276,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="report\Reportes\RptEmpleados.rdlc" />
     <EmbeddedResource Include="report\Reportes\rptHorario.rdlc" />
+    <EmbeddedResource Include="report\Rptcorrecciones.resx">
+      <DependentUpon>Rptcorrecciones.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\app.manifest" />

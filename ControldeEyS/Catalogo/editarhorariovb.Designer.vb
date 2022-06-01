@@ -36,7 +36,6 @@ Partial Class editarhorariovb
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Texdescripcionedit = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Txtdescripcion = New System.Windows.Forms.TextBox()
@@ -69,6 +68,7 @@ Partial Class editarhorariovb
         Me.Txtidhorario.Name = "Txtidhorario"
         Me.Txtidhorario.Size = New System.Drawing.Size(196, 20)
         Me.Txtidhorario.TabIndex = 1
+        Me.Txtidhorario.Visible = False
         '
         'txtentrada
         '
@@ -158,15 +158,6 @@ Partial Class editarhorariovb
         Me.Label4.TabIndex = 121
         Me.Label4.Text = "Descripcion"
         '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(690, 104)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Buscar"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(571, 449)
@@ -211,6 +202,7 @@ Partial Class editarhorariovb
         Me.Label1.Size = New System.Drawing.Size(21, 13)
         Me.Label1.TabIndex = 119
         Me.Label1.Text = "ID "
+        Me.Label1.Visible = False
         '
         'Label8
         '
@@ -251,13 +243,13 @@ Partial Class editarhorariovb
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Texdescripcionedit)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Txtdescripcion)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "editarhorariovb"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Editar horario"
@@ -280,7 +272,6 @@ Partial Class editarhorariovb
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Texdescripcionedit As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Txtdescripcion As TextBox

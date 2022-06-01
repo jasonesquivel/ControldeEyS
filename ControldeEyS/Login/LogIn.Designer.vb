@@ -34,6 +34,7 @@ Partial Class LogIn
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -43,10 +44,9 @@ Partial Class LogIn
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Demi", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(304, 250)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(228, 203)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(84, 25)
+        Me.Label1.Size = New System.Drawing.Size(69, 21)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Usuario:"
         '
@@ -54,10 +54,9 @@ Partial Class LogIn
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Franklin Gothic Demi", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(265, 303)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(199, 246)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(119, 25)
+        Me.Label2.Size = New System.Drawing.Size(98, 21)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Contraseña:"
         '
@@ -65,28 +64,25 @@ Partial Class LogIn
         '
         Me.Txtusuario.Font = New System.Drawing.Font("Franklin Gothic Demi", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Txtusuario.ForeColor = System.Drawing.SystemColors.WindowFrame
-        Me.Txtusuario.Location = New System.Drawing.Point(404, 244)
-        Me.Txtusuario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Txtusuario.Location = New System.Drawing.Point(303, 198)
         Me.Txtusuario.Name = "Txtusuario"
-        Me.Txtusuario.Size = New System.Drawing.Size(301, 30)
+        Me.Txtusuario.Size = New System.Drawing.Size(227, 26)
         Me.Txtusuario.TabIndex = 1
         '
         'Txtcontraseña
         '
         Me.Txtcontraseña.Font = New System.Drawing.Font("Franklin Gothic Demi", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Txtcontraseña.Location = New System.Drawing.Point(404, 299)
-        Me.Txtcontraseña.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Txtcontraseña.Location = New System.Drawing.Point(303, 243)
         Me.Txtcontraseña.Name = "Txtcontraseña"
         Me.Txtcontraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(176)
-        Me.Txtcontraseña.Size = New System.Drawing.Size(301, 30)
+        Me.Txtcontraseña.Size = New System.Drawing.Size(227, 26)
         Me.Txtcontraseña.TabIndex = 2
         '
         'btnaceptar
         '
-        Me.btnaceptar.Location = New System.Drawing.Point(545, 374)
-        Me.btnaceptar.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnaceptar.Location = New System.Drawing.Point(409, 304)
         Me.btnaceptar.Name = "btnaceptar"
-        Me.btnaceptar.Size = New System.Drawing.Size(131, 39)
+        Me.btnaceptar.Size = New System.Drawing.Size(98, 32)
         Me.btnaceptar.TabIndex = 4
         Me.btnaceptar.Text = "Aceptar"
         Me.btnaceptar.UseVisualStyleBackColor = True
@@ -95,69 +91,73 @@ Partial Class LogIn
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(345, 250)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(259, 203)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(0, 52)
+        Me.Label3.Size = New System.Drawing.Size(0, 39)
         Me.Label3.TabIndex = 5
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.HotPink
-        Me.Panel1.Location = New System.Drawing.Point(0, 140)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Panel1.Location = New System.Drawing.Point(0, 114)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1085, 44)
+        Me.Panel1.Size = New System.Drawing.Size(814, 36)
         Me.Panel1.TabIndex = 6
         '
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.MidnightBlue
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(309, 7)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(232, 6)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(401, 132)
+        Me.PictureBox1.Size = New System.Drawing.Size(301, 107)
         Me.PictureBox1.TabIndex = 7
         Me.PictureBox1.TabStop = False
         '
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.MidnightBlue
+        Me.Panel2.Controls.Add(Me.Button2)
         Me.Panel2.Controls.Add(Me.PictureBox1)
         Me.Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(1085, 146)
+        Me.Panel2.Size = New System.Drawing.Size(814, 119)
         Me.Panel2.TabIndex = 8
         '
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(795, 303)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(596, 246)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(291, 138)
+        Me.PictureBox2.Size = New System.Drawing.Size(218, 112)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 9
         Me.PictureBox2.TabStop = False
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(355, 374)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Location = New System.Drawing.Point(266, 304)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(131, 39)
+        Me.Button1.Size = New System.Drawing.Size(98, 32)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Cancelar"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(614, 12)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(178, 26)
+        Me.Button2.TabIndex = 10
+        Me.Button2.Text = "Asistencia Empleados"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'LogIn
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.ClientSize = New System.Drawing.Size(1085, 454)
+        Me.ClientSize = New System.Drawing.Size(814, 369)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Panel1)
@@ -169,7 +169,6 @@ Partial Class LogIn
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "LogIn"
@@ -194,4 +193,5 @@ Partial Class LogIn
     Friend WithEvents Panel2 As Panel
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class

@@ -4,8 +4,13 @@
 
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Dim response
+        response = MsgBox("Si no ha Presionado el boton guardar se saldra sin guardar",
+                     MsgBoxStyle.OkCancel, "Advertencia")
+        If response = vbOK Then
+            Me.Close()    ' Perform some action.
+        End If
 
-        Me.Close()
 
     End Sub
 
@@ -39,6 +44,19 @@
     End Sub
 
     Private Sub Txtiddep_TextChanged(sender As Object, e As EventArgs) Handles Txtiddep.TextChanged
+        Try
+            Dim iddep As Integer = CInt(Txtiddep.Text.Trim)
+            Dim nombredepa As String = txtnombre.Text.Trim
+            Dim descrpiciondepa As String = Txtdescripcion.Text.Trim
+            depa.BuscarPorId(iddep)
+            txtnombre.Text = depa.BuscarPorId(iddep).Rows(0).Item(1)
+            txtnombreedit.Text = depa.BuscarPorId(iddep).Rows(0).Item(1)
+            Txtdescripcion.Text = depa.BuscarPorId(iddep).Rows(0).Item(2)
+            Texdescripcionedit.Text = depa.BuscarPorId(iddep).Rows(0).Item(2)
+
+        Catch ex As Exception
+
+        End Try
 
     End Sub
 
@@ -61,7 +79,7 @@
         solonumeros(e)
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) 
         Try
             Dim iddep As Integer = CInt(Txtiddep.Text.Trim)
             Dim nombredepa As String = txtnombre.Text.Trim
@@ -93,7 +111,7 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Try
             Dim resp As VariantType
-            resp = (MsgBox("Desea eliminar el registro?", vbQuestion + vbYesNo, "Eliminar"))
+            resp = (MsgBox("Desea eliminar el registro?, se eliminaran todos los datos que estaban dentro", vbQuestion + vbYesNo, "Eliminar"))
             If (resp = vbYes) Then
                 Dim iddep As Integer = CInt(Txtiddep.Text.Trim)
                 depa.EliminarRegistro(iddep)
