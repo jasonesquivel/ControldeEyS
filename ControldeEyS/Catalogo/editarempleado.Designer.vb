@@ -70,9 +70,10 @@ Partial Class editarempleado
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(45, 45)
+        Me.PictureBox1.Location = New System.Drawing.Point(60, 55)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(203, 78)
+        Me.PictureBox1.Size = New System.Drawing.Size(271, 96)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 38
         Me.PictureBox1.TabStop = False
@@ -80,26 +81,29 @@ Partial Class editarempleado
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(610, 483)
+        Me.Label4.Location = New System.Drawing.Point(813, 594)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(40, 13)
+        Me.Label4.Size = New System.Drawing.Size(49, 16)
         Me.Label4.TabIndex = 35
         Me.Label4.Text = "Puesto"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(650, 603)
+        Me.Button2.Location = New System.Drawing.Point(1130, 698)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(100, 28)
         Me.Button2.TabIndex = 12
         Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(415, 603)
+        Me.Button1.Location = New System.Drawing.Point(816, 698)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 10
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -109,292 +113,326 @@ Partial Class editarempleado
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(1046, 25)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1395, 25)
         Me.ToolStrip1.TabIndex = 30
         Me.ToolStrip1.Text = "ToolStrip1"
         '
         'txtidpuesto
         '
-        Me.txtidpuesto.Location = New System.Drawing.Point(299, 476)
+        Me.txtidpuesto.Location = New System.Drawing.Point(399, 586)
+        Me.txtidpuesto.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtidpuesto.Name = "txtidpuesto"
         Me.txtidpuesto.ReadOnly = True
-        Me.txtidpuesto.Size = New System.Drawing.Size(196, 20)
+        Me.txtidpuesto.Size = New System.Drawing.Size(260, 22)
         Me.txtidpuesto.TabIndex = 21
         '
         'Txtidemp
         '
-        Me.Txtidemp.Location = New System.Drawing.Point(446, 125)
+        Me.Txtidemp.Location = New System.Drawing.Point(595, 154)
+        Me.Txtidemp.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Txtidemp.Name = "Txtidemp"
-        Me.Txtidemp.Size = New System.Drawing.Size(196, 20)
+        Me.Txtidemp.Size = New System.Drawing.Size(260, 22)
         Me.Txtidemp.TabIndex = 1
         Me.Txtidemp.Visible = False
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(211, 479)
+        Me.Label3.Location = New System.Drawing.Point(281, 590)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 13)
+        Me.Label3.Size = New System.Drawing.Size(64, 16)
         Me.Label3.TabIndex = 26
         Me.Label3.Text = "ID puesto"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(368, 128)
+        Me.Label1.Location = New System.Drawing.Point(491, 158)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(59, 13)
+        Me.Label1.Size = New System.Drawing.Size(72, 16)
         Me.Label1.TabIndex = 24
         Me.Label1.Text = "ID (cedúla)"
         Me.Label1.Visible = False
         '
         'txtemaillab
         '
-        Me.txtemaillab.Location = New System.Drawing.Point(299, 392)
+        Me.txtemaillab.Location = New System.Drawing.Point(399, 482)
+        Me.txtemaillab.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtemaillab.Name = "txtemaillab"
         Me.txtemaillab.ReadOnly = True
-        Me.txtemaillab.Size = New System.Drawing.Size(196, 20)
+        Me.txtemaillab.Size = New System.Drawing.Size(260, 22)
         Me.txtemaillab.TabIndex = 19
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(211, 395)
+        Me.Label6.Location = New System.Drawing.Point(281, 486)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(66, 13)
+        Me.Label6.Size = New System.Drawing.Size(86, 16)
         Me.Label6.TabIndex = 39
         Me.Label6.Text = "Email laboral"
         '
         'txtdireccion
         '
-        Me.txtdireccion.Location = New System.Drawing.Point(299, 281)
+        Me.txtdireccion.Location = New System.Drawing.Point(399, 346)
+        Me.txtdireccion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtdireccion.Name = "txtdireccion"
         Me.txtdireccion.ReadOnly = True
-        Me.txtdireccion.Size = New System.Drawing.Size(196, 20)
+        Me.txtdireccion.Size = New System.Drawing.Size(260, 22)
         Me.txtdireccion.TabIndex = 15
         Me.txtdireccion.Text = " "
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(210, 284)
+        Me.Label7.Location = New System.Drawing.Point(280, 350)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(52, 13)
+        Me.Label7.Size = New System.Drawing.Size(64, 16)
         Me.Label7.TabIndex = 41
         Me.Label7.Text = "Direccion"
         '
         'txtnombre
         '
-        Me.txtnombre.Location = New System.Drawing.Point(299, 214)
+        Me.txtnombre.Location = New System.Drawing.Point(399, 263)
+        Me.txtnombre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtnombre.Name = "txtnombre"
         Me.txtnombre.ReadOnly = True
-        Me.txtnombre.Size = New System.Drawing.Size(196, 20)
+        Me.txtnombre.Size = New System.Drawing.Size(260, 22)
         Me.txtnombre.TabIndex = 13
         Me.txtnombre.Text = " "
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(211, 221)
+        Me.Label8.Location = New System.Drawing.Point(281, 272)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(44, 13)
+        Me.Label8.Size = New System.Drawing.Size(56, 16)
         Me.Label8.TabIndex = 45
         Me.Label8.Text = "Nombre"
         '
         'txtapellido
         '
-        Me.txtapellido.Location = New System.Drawing.Point(299, 249)
+        Me.txtapellido.Location = New System.Drawing.Point(399, 306)
+        Me.txtapellido.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtapellido.Name = "txtapellido"
         Me.txtapellido.ReadOnly = True
-        Me.txtapellido.Size = New System.Drawing.Size(196, 20)
+        Me.txtapellido.Size = New System.Drawing.Size(260, 22)
         Me.txtapellido.TabIndex = 14
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(211, 256)
+        Me.Label9.Location = New System.Drawing.Point(281, 315)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(44, 13)
+        Me.Label9.Size = New System.Drawing.Size(57, 16)
         Me.Label9.TabIndex = 43
         Me.Label9.Text = "Apellido"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(606, 217)
+        Me.Label10.Location = New System.Drawing.Point(808, 267)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(44, 13)
+        Me.Label10.Size = New System.Drawing.Size(56, 16)
         Me.Label10.TabIndex = 50
         Me.Label10.Text = "Nombre"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(606, 256)
+        Me.Label11.Location = New System.Drawing.Point(808, 315)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(44, 13)
+        Me.Label11.Size = New System.Drawing.Size(57, 16)
         Me.Label11.TabIndex = 49
         Me.Label11.Text = "Apellido"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(606, 284)
+        Me.Label12.Location = New System.Drawing.Point(808, 350)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(52, 13)
+        Me.Label12.Size = New System.Drawing.Size(64, 16)
         Me.Label12.TabIndex = 48
         Me.Label12.Text = "Direccion"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(606, 395)
+        Me.Label13.Location = New System.Drawing.Point(808, 486)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(66, 13)
+        Me.Label13.Size = New System.Drawing.Size(86, 16)
         Me.Label13.TabIndex = 47
         Me.Label13.Text = "Email laboral"
         '
         'txtemaillabedit
         '
-        Me.txtemaillabedit.Location = New System.Drawing.Point(704, 392)
+        Me.txtemaillabedit.Location = New System.Drawing.Point(939, 482)
+        Me.txtemaillabedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtemaillabedit.Name = "txtemaillabedit"
-        Me.txtemaillabedit.Size = New System.Drawing.Size(196, 20)
+        Me.txtemaillabedit.Size = New System.Drawing.Size(260, 22)
         Me.txtemaillabedit.TabIndex = 8
         '
         'txtdireccionedit
         '
-        Me.txtdireccionedit.Location = New System.Drawing.Point(704, 281)
+        Me.txtdireccionedit.Location = New System.Drawing.Point(939, 346)
+        Me.txtdireccionedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtdireccionedit.Name = "txtdireccionedit"
-        Me.txtdireccionedit.Size = New System.Drawing.Size(196, 20)
+        Me.txtdireccionedit.Size = New System.Drawing.Size(260, 22)
         Me.txtdireccionedit.TabIndex = 5
         '
         'txtapellidoedit
         '
-        Me.txtapellidoedit.Location = New System.Drawing.Point(704, 249)
+        Me.txtapellidoedit.Location = New System.Drawing.Point(939, 306)
+        Me.txtapellidoedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtapellidoedit.Name = "txtapellidoedit"
-        Me.txtapellidoedit.Size = New System.Drawing.Size(196, 20)
+        Me.txtapellidoedit.Size = New System.Drawing.Size(260, 22)
         Me.txtapellidoedit.TabIndex = 4
         '
         'txtnombreedit
         '
-        Me.txtnombreedit.Location = New System.Drawing.Point(704, 214)
+        Me.txtnombreedit.Location = New System.Drawing.Point(939, 263)
+        Me.txtnombreedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtnombreedit.Name = "txtnombreedit"
-        Me.txtnombreedit.Size = New System.Drawing.Size(196, 20)
+        Me.txtnombreedit.Size = New System.Drawing.Size(260, 22)
         Me.txtnombreedit.TabIndex = 3
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(211, 431)
+        Me.Label2.Location = New System.Drawing.Point(281, 530)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(55, 13)
+        Me.Label2.Size = New System.Drawing.Size(68, 16)
         Me.Label2.TabIndex = 25
         Me.Label2.Text = "ID Horario"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(606, 431)
+        Me.Label5.Location = New System.Drawing.Point(808, 530)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(41, 13)
+        Me.Label5.Size = New System.Drawing.Size(52, 16)
         Me.Label5.TabIndex = 34
         Me.Label5.Text = "Horario"
         '
         'txtidhorario
         '
-        Me.txtidhorario.Location = New System.Drawing.Point(299, 428)
+        Me.txtidhorario.Location = New System.Drawing.Point(399, 527)
+        Me.txtidhorario.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtidhorario.Name = "txtidhorario"
         Me.txtidhorario.ReadOnly = True
-        Me.txtidhorario.Size = New System.Drawing.Size(196, 20)
+        Me.txtidhorario.Size = New System.Drawing.Size(260, 22)
         Me.txtidhorario.TabIndex = 20
         '
         'txttelefonoedit
         '
-        Me.txttelefonoedit.Location = New System.Drawing.Point(704, 320)
+        Me.txttelefonoedit.Location = New System.Drawing.Point(939, 394)
+        Me.txttelefonoedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txttelefonoedit.Name = "txttelefonoedit"
-        Me.txttelefonoedit.Size = New System.Drawing.Size(196, 20)
+        Me.txttelefonoedit.Size = New System.Drawing.Size(260, 22)
         Me.txttelefonoedit.TabIndex = 6
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(606, 323)
+        Me.Label14.Location = New System.Drawing.Point(808, 398)
+        Me.Label14.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(49, 13)
+        Me.Label14.Size = New System.Drawing.Size(61, 16)
         Me.Label14.TabIndex = 58
         Me.Label14.Text = "Telefono"
         '
         'txttelefono
         '
-        Me.txttelefono.Location = New System.Drawing.Point(299, 320)
+        Me.txttelefono.Location = New System.Drawing.Point(399, 394)
+        Me.txttelefono.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txttelefono.Name = "txttelefono"
         Me.txttelefono.ReadOnly = True
-        Me.txttelefono.Size = New System.Drawing.Size(196, 20)
+        Me.txttelefono.Size = New System.Drawing.Size(260, 22)
         Me.txttelefono.TabIndex = 16
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(210, 323)
+        Me.Label15.Location = New System.Drawing.Point(280, 398)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(49, 13)
+        Me.Label15.Size = New System.Drawing.Size(61, 16)
         Me.Label15.TabIndex = 57
         Me.Label15.Text = "Telefono"
         '
         'txtemailperedit
         '
-        Me.txtemailperedit.Location = New System.Drawing.Point(704, 356)
+        Me.txtemailperedit.Location = New System.Drawing.Point(939, 438)
+        Me.txtemailperedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtemailperedit.Name = "txtemailperedit"
-        Me.txtemailperedit.Size = New System.Drawing.Size(196, 20)
+        Me.txtemailperedit.Size = New System.Drawing.Size(260, 22)
         Me.txtemailperedit.TabIndex = 7
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(606, 362)
+        Me.Label16.Location = New System.Drawing.Point(808, 446)
+        Me.Label16.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(75, 13)
+        Me.Label16.Size = New System.Drawing.Size(97, 16)
         Me.Label16.TabIndex = 56
         Me.Label16.Text = "Email personal"
         '
         'txtemailper
         '
-        Me.txtemailper.Location = New System.Drawing.Point(299, 359)
+        Me.txtemailper.Location = New System.Drawing.Point(399, 442)
+        Me.txtemailper.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtemailper.Name = "txtemailper"
         Me.txtemailper.ReadOnly = True
-        Me.txtemailper.Size = New System.Drawing.Size(196, 20)
+        Me.txtemailper.Size = New System.Drawing.Size(260, 22)
         Me.txtemailper.TabIndex = 18
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(211, 363)
+        Me.Label17.Location = New System.Drawing.Point(281, 447)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(73, 13)
+        Me.Label17.Size = New System.Drawing.Size(94, 16)
         Me.Label17.TabIndex = 55
         Me.Label17.Text = "Emai personal"
         '
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(704, 476)
+        Me.ComboBox2.Location = New System.Drawing.Point(939, 586)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(196, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(260, 24)
         Me.ComboBox2.TabIndex = 10
         '
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(704, 431)
+        Me.ComboBox1.Location = New System.Drawing.Point(939, 530)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(196, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(260, 24)
         Me.ComboBox1.TabIndex = 9
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(533, 603)
+        Me.Button4.Location = New System.Drawing.Point(974, 698)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(100, 28)
         Me.Button4.TabIndex = 11
         Me.Button4.Text = "Eliminar"
         Me.Button4.UseVisualStyleBackColor = True
@@ -402,27 +440,29 @@ Partial Class editarempleado
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(717, 172)
+        Me.Label18.Location = New System.Drawing.Point(956, 212)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(78, 13)
+        Me.Label18.Size = New System.Drawing.Size(99, 16)
         Me.Label18.TabIndex = 131
         Me.Label18.Text = "Datos editados"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Location = New System.Drawing.Point(332, 172)
+        Me.Label19.Location = New System.Drawing.Point(443, 212)
+        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(82, 13)
+        Me.Label19.Size = New System.Drawing.Size(105, 16)
         Me.Label19.TabIndex = 130
         Me.Label19.Text = "Datos originales"
         '
         'editarempleado
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
-        Me.ClientSize = New System.Drawing.Size(1046, 638)
+        Me.ClientSize = New System.Drawing.Size(1395, 785)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Button4)
@@ -465,6 +505,7 @@ Partial Class editarempleado
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "editarempleado"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen

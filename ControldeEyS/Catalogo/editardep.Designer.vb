@@ -44,124 +44,138 @@ Partial Class editardep
         '
         'txtnombreedit
         '
-        Me.txtnombreedit.Location = New System.Drawing.Point(687, 207)
+        Me.txtnombreedit.Location = New System.Drawing.Point(916, 255)
+        Me.txtnombreedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtnombreedit.Name = "txtnombreedit"
-        Me.txtnombreedit.Size = New System.Drawing.Size(196, 20)
+        Me.txtnombreedit.Size = New System.Drawing.Size(260, 22)
         Me.txtnombreedit.TabIndex = 2
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(584, 214)
+        Me.Label10.Location = New System.Drawing.Point(779, 263)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(44, 13)
+        Me.Label10.Size = New System.Drawing.Size(56, 16)
         Me.Label10.TabIndex = 80
         Me.Label10.Text = "Nombre"
         '
         'txtnombre
         '
-        Me.txtnombre.Location = New System.Drawing.Point(286, 207)
+        Me.txtnombre.Location = New System.Drawing.Point(381, 255)
+        Me.txtnombre.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtnombre.Name = "txtnombre"
         Me.txtnombre.ReadOnly = True
-        Me.txtnombre.Size = New System.Drawing.Size(196, 20)
+        Me.txtnombre.Size = New System.Drawing.Size(260, 22)
         Me.txtnombre.TabIndex = 7
         Me.txtnombre.Text = " "
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(183, 207)
+        Me.Label8.Location = New System.Drawing.Point(244, 255)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(44, 13)
+        Me.Label8.Size = New System.Drawing.Size(56, 16)
         Me.Label8.TabIndex = 75
         Me.Label8.Text = "Nombre"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(48, 47)
+        Me.PictureBox1.Location = New System.Drawing.Point(64, 58)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(203, 78)
+        Me.PictureBox1.Size = New System.Drawing.Size(271, 96)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 68
         Me.PictureBox1.TabStop = False
         '
         'Texdescripcionedit
         '
-        Me.Texdescripcionedit.Location = New System.Drawing.Point(687, 253)
+        Me.Texdescripcionedit.Location = New System.Drawing.Point(916, 311)
+        Me.Texdescripcionedit.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Texdescripcionedit.Multiline = True
         Me.Texdescripcionedit.Name = "Texdescripcionedit"
-        Me.Texdescripcionedit.Size = New System.Drawing.Size(196, 141)
+        Me.Texdescripcionedit.Size = New System.Drawing.Size(260, 173)
         Me.Texdescripcionedit.TabIndex = 3
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(584, 253)
+        Me.Label4.Location = New System.Drawing.Point(779, 311)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(63, 13)
+        Me.Label4.Size = New System.Drawing.Size(79, 16)
         Me.Label4.TabIndex = 65
         Me.Label4.Text = "Descripcion"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(665, 475)
+        Me.Button2.Location = New System.Drawing.Point(1148, 577)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(100, 28)
         Me.Button2.TabIndex = 6
         Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(405, 475)
+        Me.Button1.Location = New System.Drawing.Point(801, 577)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 4
         Me.Button1.Text = "Guardar"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Txtdescripcion
         '
-        Me.Txtdescripcion.Location = New System.Drawing.Point(286, 253)
+        Me.Txtdescripcion.Location = New System.Drawing.Point(381, 311)
+        Me.Txtdescripcion.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Txtdescripcion.Multiline = True
         Me.Txtdescripcion.Name = "Txtdescripcion"
         Me.Txtdescripcion.ReadOnly = True
-        Me.Txtdescripcion.Size = New System.Drawing.Size(196, 138)
+        Me.Txtdescripcion.Size = New System.Drawing.Size(260, 169)
         Me.Txtdescripcion.TabIndex = 8
         '
         'Txtiddep
         '
-        Me.Txtiddep.Location = New System.Drawing.Point(449, 127)
+        Me.Txtiddep.Location = New System.Drawing.Point(599, 156)
+        Me.Txtiddep.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Txtiddep.Name = "Txtiddep"
-        Me.Txtiddep.Size = New System.Drawing.Size(196, 20)
+        Me.Txtiddep.Size = New System.Drawing.Size(260, 22)
         Me.Txtiddep.TabIndex = 0
         Me.Txtiddep.Visible = False
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(183, 253)
+        Me.Label3.Location = New System.Drawing.Point(244, 311)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(63, 13)
+        Me.Label3.Size = New System.Drawing.Size(79, 16)
         Me.Label3.TabIndex = 57
         Me.Label3.Text = "Descripcion"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(384, 134)
+        Me.Label1.Location = New System.Drawing.Point(512, 165)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(21, 13)
+        Me.Label1.Size = New System.Drawing.Size(23, 16)
         Me.Label1.TabIndex = 55
         Me.Label1.Text = "ID "
         Me.Label1.Visible = False
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(535, 475)
+        Me.Button4.Location = New System.Drawing.Point(974, 577)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(100, 28)
         Me.Button4.TabIndex = 5
         Me.Button4.Text = "Eliminar"
         Me.Button4.UseVisualStyleBackColor = True
@@ -169,27 +183,29 @@ Partial Class editardep
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(726, 175)
+        Me.Label9.Location = New System.Drawing.Point(968, 215)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(78, 13)
+        Me.Label9.Size = New System.Drawing.Size(99, 16)
         Me.Label9.TabIndex = 131
         Me.Label9.Text = "Datos editados"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(341, 175)
+        Me.Label2.Location = New System.Drawing.Point(455, 215)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(82, 13)
+        Me.Label2.Size = New System.Drawing.Size(105, 16)
         Me.Label2.TabIndex = 130
         Me.Label2.Text = "Datos originales"
         '
         'editardep
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.LightGray
-        Me.ClientSize = New System.Drawing.Size(1113, 513)
+        Me.ClientSize = New System.Drawing.Size(1484, 631)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button4)
@@ -207,6 +223,7 @@ Partial Class editardep
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.MaximizeBox = False
         Me.Name = "editardep"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
